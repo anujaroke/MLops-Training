@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>ClinDoc AI</title>
+
+	<link
+		rel="stylesheet"
+		href="{{ url_for('static', filename='style.css') }}"
+	>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h1>ClinDoc AI</h1>
+
+		<p class="subtitle">
+			Clinical Consultation Specialty Classification
+		</p>
+
+		<div class="card">
+
+			<form action="/predict" method="POST">
+
+				<textarea
+					name="clinical_note"
+					placeholder="Enter clinical consultation notes..."
+				>{{input_text}}</textarea>
+
+				<button type="submit">
+
+					Predict Specialty
+
+				</button>
+
+			</form>
+
+			{% if prediction %}
+
+			<div class="result">
+
+				<h2>Predicted Specialty</h2>
+
+				<p class="prediction">
+
+					{{prediction}}
+
+				</p>
+
+				<h3>
+
+					Confidence:
+					{{confidence}}%
+
+				</h3>
+
+			</div>
+
+			{% endif %}
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
