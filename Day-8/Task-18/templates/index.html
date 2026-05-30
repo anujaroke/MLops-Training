@@ -6,6 +6,20 @@
 	<title>ClinDoc AI</title>
 
 	<link
+		rel="preconnect"
+		href="https://fonts.googleapis.com"
+	>
+	<link
+		rel="preconnect"
+		href="https://fonts.gstatic.com"
+		crossorigin
+	>
+	<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+	>
+
+	<link
 		rel="stylesheet"
 		href="{{ url_for('static', filename='style.css') }}"
 	>
@@ -14,19 +28,27 @@
 
 <body>
 
-	<div class="container">
+	<div class="page">
 
-		<h1>ClinDoc AI</h1>
-
-		<p class="subtitle">
-			Clinical Consultation Specialty Classification
-		</p>
+		<header class="hero">
+			<p class="eyebrow">Clinical NLP Studio</p>
+			<h1>ClinDoc AI</h1>
+			<p class="subtitle">
+				Clinical Consultation Specialty Classification
+			</p>
+		</header>
 
 		<div class="card">
 
 			<form action="/predict" method="POST">
 
+				<label class="field-label" for="clinical_note">
+					Clinical notes
+					<span class="field-hint">Paste a consult summary or free-text note.</span>
+				</label>
+
 				<textarea
+					id="clinical_note"
 					name="clinical_note"
 					placeholder="Enter clinical consultation notes..."
 				>{{input_text}}</textarea>
@@ -51,18 +73,19 @@
 
 				</p>
 
-				<h3>
-
-					Confidence:
-					{{confidence}}%
-
-				</h3>
+				<p class="confidence">
+					Confidence: <strong>{{confidence}}%</strong>
+				</p>
 
 			</div>
 
 			{% endif %}
 
 		</div>
+
+		<footer class="footer">
+			Model output is advisory. Always verify with clinical judgment.
+		</footer>
 
 	</div>
 
