@@ -1,2 +1,2 @@
-have pushed the text-model to docker.
+have pushed the text-model-ui to docker.
 Link: https://hub.docker.com/r/anujaroke/text-model
