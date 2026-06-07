@@ -1,0 +1,305 @@
+================================================================================
+NEXUSTECH SOLUTIONS — HUMAN RESOURCES / IT DOCUMENT
+DOCUMENT ID   : HR-OB-007
+TITLE         : New Employee Onboarding Checklist
+VERSION       : 2.1
+EFFECTIVE DATE: January 1, 2026
+LAST REVIEWED : December 15, 2025
+APPROVED BY   : Sarah Mitchell, Chief People Officer
+DEPARTMENT    : Human Resources & IT
+CLASSIFICATION: Internal
+================================================================================
+
+WELCOME TO NEXUSTECH SOLUTIONS!
+---------------------------------
+We're thrilled to have you join us. This checklist is your roadmap for the
+first 90 days at NexusTech. It is divided into tasks for HR, IT, your Manager,
+your Onboarding Buddy, and YOU. Please read every section carefully and check
+items off as you complete them in the Darwinbox onboarding portal.
+
+Questions? Contact: hr@nexustech.in | Phone: Ext. 1001
+HRMS Portal: portal.nexustech.in
+IT Helpdesk: helpdesk.nexustech.in
+
+================================================================================
+PRE-JOINING (Done before or on Day 1 by HR & IT)
+================================================================================
+
+HUMAN RESOURCES — PRE-JOINING TASKS
+  [ ] Offer letter sent and digitally signed via Darwinbox
+  [ ] Background verification initiated (via AuthBridge)
+  [ ] Employment contract signed (NDA, IP Assignment, Code of Conduct)
+  [ ] Welcome email sent with joining instructions and agenda
+  [ ] Employee profile created in Darwinbox HRMS
+  [ ] Employee added to payroll (Zoho Payroll)
+  [ ] Bank account details collected for salary processing
+  [ ] PAN card, Aadhaar, and other statutory documents collected
+  [ ] PF (Provident Fund) nomination form collected
+  [ ] Medical insurance enrollment form sent (insurer: HDFC ERGO Group Policy)
+  [ ] ID card photo collected (for access badge)
+  [ ] Emergency contact information collected
+  [ ] Dietary preferences collected (for welcome lunch)
+  [ ] Buddy assigned (from same team; ideally 1+ year at NexusTech)
+  [ ] Manager notified of joining date, role, and team allocation
+
+IT — PRE-JOINING SETUP
+  [ ] Employee email account created (Google Workspace):
+      Format: firstname.lastname@nexustech.in
+  [ ] SSO account provisioned (Okta)
+  [ ] Role-based access groups assigned in IAM (based on department, role)
+  [ ] Laptop imaged and prepared:
+        - OS: macOS 14 Sonoma (engineers) / Windows 11 Pro (others)
+        - Crowdstrike EDR agent installed
+        - Jamf / Intune MDM enrolled
+        - VPN client (WireGuard) installed
+        - Standard app bundle pre-installed (see IT Onboarding SOP)
+  [ ] Corporate email signature template applied
+  [ ] Hardware accessories packed (cable, charger, mouse, keyboard if needed)
+  [ ] YubiKey provisioned (engineers and Grade 3+)
+  [ ] Access badge printed and ready for collection at reception
+  [ ] Welcome IT kit prepared (includes: laptop, accessories, NexusTech swag bag)
+
+MANAGER — PRE-JOINING TASKS
+  [ ] 30-60-90 day plan drafted and ready to share on Day 1
+  [ ] Team introduction email drafted
+  [ ] First-week meeting schedule planned
+  [ ] First project or assignment identified (not overwhelming; structured)
+  [ ] Access rights request submitted to IT (any special access needed)
+  [ ] Desk / workspace prepared (for in-office employees)
+  [ ] Introductory 1:1 scheduled for Day 1 (90 minutes)
+
+================================================================================
+DAY 1 CHECKLIST
+================================================================================
+
+ARRIVAL & ADMIN (9:00 – 10:00 AM)
+  [ ] Greeted by HR or Onboarding Buddy at reception
+  [ ] Office tour: workstation, break room, restrooms, meeting rooms, exits
+  [ ] Access badge collected and tested
+  [ ] Seat assignment confirmed
+  [ ] Emergency exits and safety procedures briefed
+  [ ] Signed physical access agreement
+
+IT SETUP (10:00 AM – 12:00 PM) — with IT Helpdesk support
+  [ ] Laptop collected and powered on
+  [ ] SSO login configured (Okta) with MFA setup
+  [ ] Corporate email (Gmail) verified and working
+  [ ] Slack workspace joined: nexustech.slack.com
+      Join channels: #general, #[team-channel], #announcements,
+      #it-helpdesk, #engineering (if applicable), #random
+  [ ] 1Password Teams account set up; emergency kit saved securely
+  [ ] YubiKey registered with SSO (engineers)
+  [ ] VPN client tested (connect to corporate network)
+  [ ] MacOS/Windows initial update run; all MDM profiles confirmed
+  [ ] GitHub Enterprise access verified (engineers)
+  [ ] Jira / Confluence access verified
+  [ ] Zoom / Google Meet tested (camera, microphone, speaker)
+  [ ] Expensify account linked
+  [ ] Darwinbox profile completed (photo, personal details, leave preferences)
+
+HR ONBOARDING SESSION (1:00 – 2:30 PM)
+  [ ] Welcome address from HR (Sarah Mitchell or delegate)
+  [ ] Company history, mission, and values presentation
+  [ ] Org structure walkthrough
+  [ ] Key policies reviewed:
+      - Leave Policy (HR-POL-001)
+      - Code of Conduct
+      - IT Security Policy (IT-SEC-002)
+      - Anti-Harassment Policy
+      - Expense Policy (FIN-POL-004)
+  [ ] Benefits overview:
+      - Health insurance (self + dependents)
+      - PF and Gratuity
+      - NPS (optional)
+      - Flexi-benefit allowance
+  [ ] Payroll cycle explained (salary on 28th of each month)
+  [ ] Performance review cycle explained
+  [ ] Darwinbox navigation walkthrough
+
+MANAGER 1:1 — DAY 1 (3:00 – 4:30 PM)
+  [ ] Personal introduction and team dynamics discussion
+  [ ] Role expectations and first 30-day goals shared
+  [ ] 30-60-90 day plan reviewed and handed over
+  [ ] Introduction to key stakeholders and points of contact
+  [ ] Regular 1:1 cadence established (weekly recommended)
+  [ ] First assignment briefed
+
+BUDDY INTRODUCTION (4:30 – 5:00 PM)
+  [ ] Buddy meets new hire
+  [ ] Buddy contact details exchanged
+  [ ] Buddy availability and communication preference agreed
+  [ ] Buddy introduces to the broader team informally
+
+WELCOME LUNCH / TEAM GATHERING
+  [ ] Team welcome lunch arranged by manager (if not Day 1, within first 3 days)
+
+================================================================================
+WEEK 1 CHECKLIST (Days 1–5)
+================================================================================
+
+COMPANY & PRODUCT KNOWLEDGE
+  [ ] Read company overview deck (Google Drive: Company Intro 2026)
+  [ ] Watch CEO "State of NexusTech" Town Hall recording (latest: Jan 2026)
+  [ ] Review current product portfolio:
+      - NexusTech FinOS product overview
+      - NexusTech LogiTrack product overview
+      - NexusTech DataPulse product overview
+  [ ] Review Company OKRs for 2026 (Notion OKR Workspace — read access)
+  [ ] Complete "NexusTech 101" course in Darwinbox LMS (2 hours; mandatory)
+
+SECURITY & COMPLIANCE TRAINING (Mandatory — complete within first 7 days)
+  [ ] Annual Security Awareness Training (IT-SEC-002 referenced)
+      — Available in Darwinbox LMS → Security → Annual Awareness Training
+      — Duration: ~2 hours; includes a short quiz (must score ≥80% to pass)
+  [ ] Acknowledge IT Security Policy (digital acknowledgment in Darwinbox)
+  [ ] Acknowledge Code of Conduct and Anti-Harassment Policy
+  [ ] POSH (Prevention of Sexual Harassment) online training — complete quiz
+  [ ] Acknowledge Data Classification and Handling guidelines
+
+ROLE-SPECIFIC ORIENTATION
+  [ ] Meet with team members (10–15 min intro calls with each team member)
+  [ ] Attend first team standup / sprint ceremony (as observer)
+  [ ] Access and read team's Confluence documentation home page
+  [ ] Review team's Jira backlog (read-only, understand project landscape)
+  [ ] Review architecture diagrams for product/systems you'll work on
+  [ ] Identify 2–3 open tickets appropriate for a first contribution
+  [ ] Shadow a colleague on a customer call or stakeholder meeting (if applicable)
+
+FOR ENGINEERS — ADDITIONAL WEEK 1 TASKS
+  [ ] Read Engineering_SOP_Code_Review (ENG-SOP-003)
+  [ ] Clone the primary repositories from GitHub Enterprise
+  [ ] Set up local dev environment (README + setup script in each repo)
+  [ ] Run the application locally; access staging environment
+  [ ] Complete "Secure Coding Fundamentals" training (Darwinbox LMS, 1.5 hours)
+  [ ] Review the Architectural Decision Records (ADRs) folder in Confluence
+  [ ] Attend Engineering All-Hands (next scheduled occurrence)
+  [ ] Submit first PR (a "hello world" or documentation fix PR to get familiar
+      with the GitHub workflow, CI pipeline, and review process)
+
+FOR SALES/CS — ADDITIONAL WEEK 1 TASKS
+  [ ] CRM access (Salesforce) configured and tested
+  [ ] Review top 5 customer accounts (with manager)
+  [ ] Listen to 3 recorded sales/CS calls in Gong
+  [ ] Read most recent Sales Playbook (Google Drive: Sales > Playbooks)
+  [ ] Complete "NexusTech Product Demo" certification track in Darwinbox LMS
+
+================================================================================
+FIRST 30 DAYS CHECKLIST
+================================================================================
+
+KNOWLEDGE & RAMP-UP
+  [ ] Deep-dive on your primary product/domain (schedule sessions with PMs/leads)
+  [ ] Understand the competitive landscape (Marketing: competitive battle cards)
+  [ ] Complete all mandatory training modules in Darwinbox LMS
+  [ ] Have skip-level 1:1 with manager's manager (introductory; 30 min)
+  [ ] Meet cross-functional stakeholders (Product, Design, QA, CS as applicable)
+
+FIRST CONTRIBUTION
+  [ ] Complete first meaningful deliverable as agreed in 30-day plan
+      (Engineers: merged PR; Sales: shadowed 5 calls; Marketing: first draft)
+  [ ] 30-day check-in with manager (structured review of first month)
+  [ ] Share early feedback with manager and HR on onboarding experience
+      (Darwinbox: Onboarding Feedback Form — Week 4)
+
+OPERATIONAL SETUP
+  [ ] Set up filters and labels in Gmail for key communication streams
+  [ ] Expense and travel policy read and acknowledged
+  [ ] Remote work setup confirmed (if applicable): see Remote_Work_Policy doc
+  [ ] LinkedIn profile updated to reflect NexusTech role
+  [ ] Personal development goals documented in Darwinbox (will feed into
+      mid-year review)
+
+================================================================================
+FIRST 60 DAYS CHECKLIST
+================================================================================
+
+  [ ] Independently working on assigned projects with moderate guidance
+  [ ] Familiarity with team processes, tools, and communication norms
+  [ ] At least 1 meaningful contribution to team knowledge base (Confluence
+      doc, runbook update, or wiki improvement)
+  [ ] 60-day 1:1 with manager: review of progress, feedback, adjustments
+  [ ] Peer feedback collected (360-degree informal feedback)
+  [ ] Buddy relationship evolving to peer relationship
+  [ ] Awareness of Q2/Q3 team goals and how your work contributes
+
+FOR ENGINEERS:
+  [ ] Independently opened and closed ≥5 PRs (with reviews completed)
+  [ ] Comfortable with on-call rotation expectations (discuss with manager)
+  [ ] Architecture of primary system understood well enough to explain to others
+
+================================================================================
+FIRST 90 DAYS CHECKLIST
+================================================================================
+
+  [ ] Fully independent on core responsibilities; minimal guidance needed
+  [ ] 90-day formal review with manager:
+        - Performance assessment vs 30-60-90 plan
+        - Areas of strength highlighted
+        - Growth areas identified with development plan
+        - Probation review (if applicable — first 3 months is probation period)
+  [ ] Probation confirmation letter issued by HR (or extension communicated)
+  [ ] Enrolled in benefits: health insurance dependents, PF nominations confirmed
+  [ ] OKR contribution clear for the current quarter
+  [ ] Comfortable with all tools, processes, and team norms
+  [ ] Given feedback to improve the onboarding process itself (HR survey)
+
+================================================================================
+IMPORTANT CONTACTS & RESOURCES
+================================================================================
+
+Contact                    | Person                | Email / Ext
+---------------------------|----------------------|------------------------
+HR / People Team           | Sarah Mitchell (CPO)  | hr@nexustech.in / 1001
+IT Helpdesk                | IT Support Team       | helpdesk.nexustech.in
+IT Security                | Kiran Rao (CISO)      | security@nexustech.in
+Finance / Payroll          | Meera Iyer (CFO)      | finance@nexustech.in
+Your Manager               | [As communicated]     | [Shared by HR]
+Your Onboarding Buddy      | [As assigned]         | [Shared by HR]
+
+Key Portals:
+  HRMS                : portal.nexustech.in
+  IT Helpdesk Tickets : helpdesk.nexustech.in
+  Engineering GitHub  : github.nexustech.in
+  Confluence          : confluence.nexustech.in
+  Jira                : jira.nexustech.in
+  Notion (OKRs)       : notion.nexustech.in
+  Expensify           : expensify.nexustech.in
+
+Emergency:
+  Office Security Desk: Ext. 9999
+  Medical Emergency   : Call 112 / Ext. 9000 (Security)
+
+================================================================================
+KEY INTERNAL SLACK CHANNELS TO JOIN
+================================================================================
+
+Channel              | Purpose
+---------------------|------------------------------------------------------
+#general             | Company-wide announcements
+#announcements       | Official HR and leadership updates (post-only)
+#engineering         | Engineering team discussions
+#product             | Product team updates
+#random              | Fun, off-topic conversations
+#it-helpdesk         | IT support requests
+#security-alerts     | Security announcements (read-only)
+#team-[yourteam]     | Your specific team channel
+#learning-dev        | Courses, articles, and growth discussions
+#shoutouts           | Recognize teammates' great work
+
+================================================================================
+REVISION LOG
+================================================================================
+
+Version | Date           | Changed By          | Summary
+--------|----------------|---------------------|---------------------------
+1.0     | Jan 1, 2021    | HR Team             | Initial checklist
+1.5     | Jan 1, 2023    | Sarah Mitchell      | Major rewrite; added buddy
+        |                |                     | program; remote onboarding
+2.0     | Jun 1, 2024    | Sarah Mitchell      | 90-day plan; role-specific
+        |                |                     | tracks added
+2.1     | Jan 1, 2026    | Sarah Mitchell      | AI tool training added;
+        |                |                     | career ladder reference
+
+================================================================================
+For onboarding support: hr@nexustech.in | helpdesk.nexustech.in
+================================================================================

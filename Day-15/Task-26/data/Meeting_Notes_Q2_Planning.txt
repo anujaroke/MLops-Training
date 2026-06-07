@@ -1,0 +1,404 @@
+================================================================================
+NEXUSTECH SOLUTIONS — MEETING NOTES
+DOCUMENT ID   : MEET-Q2-2026-006
+TITLE         : Q2 2026 Planning & Strategy Meeting Notes
+DATE          : Friday, April 4, 2026
+TIME          : 10:00 AM – 1:30 PM IST
+LOCATION      : NexusTech Bangalore HQ — Boardroom 1A ("Horizon Room")
+                + Remote via Google Meet
+FACILITATOR   : Arjun Sharma, VP Engineering
+NOTE-TAKER    : Divya Menon, Chief of Staff
+CLASSIFICATION: Confidential — Leadership Only
+================================================================================
+
+ATTENDEES
+---------
+IN-PERSON:
+  1. Rahul Nair          — CEO
+  2. Arjun Sharma        — VP Engineering
+  3. Meera Iyer          — CFO
+  4. Anjali Rao          — VP Marketing
+  5. Sarah Mitchell      — Chief People Officer (CPO)
+  6. Kiran Rao           — CISO
+  7. Priya Khatri        — Engineering Manager (Platform Team)
+  8. Vikram Shetty       — VP Sales
+  9. Divya Menon         — Chief of Staff (Note-Taker)
+
+REMOTE (Google Meet):
+  10. Ananya Subramaniam — Head of Product
+  11. Siddharth Joshi    — Engineering Manager (Product Team, Mumbai)
+  12. Neha Bansal        — Head of Customer Success
+
+APOLOGIES / ABSENT:
+  - Deepak Nambiar (Head of Data Engineering) — Family emergency; will be
+    looped in on decisions via async recording.
+
+================================================================================
+AGENDA
+------
+1.  Q1 2026 Review — Key Metrics & Highlights         (10:00 – 10:30 AM)
+2.  Q2 2026 OKR Setting — Engineering                 (10:30 – 11:00 AM)
+3.  Q2 2026 OKR Setting — Product                     (11:00 – 11:20 AM)
+4.  Q2 2026 OKR Setting — Sales & Marketing           (11:20 – 11:40 AM)
+5.  Budget Allocation Q2                               (11:40 AM – 12:00 PM)
+6.  Hiring Plan Q2                                     (12:00 – 12:20 PM)
+7.  Open Issues / Risk Review                          (12:20 – 12:50 PM)
+8.  AOB (Any Other Business)                           (12:50 – 1:00 PM)
+9.  Action Item Review & Close                         (1:00 – 1:30 PM)
+
+================================================================================
+SESSION 1: Q1 2026 REVIEW (10:00 – 10:30 AM)
+================================================================================
+
+PRESENTER: Rahul Nair (CEO) with contributions from Meera Iyer and Vikram Shetty
+
+FINANCIAL PERFORMANCE — Q1 2026 SUMMARY
+  Total Revenue         : INR 28.4 Cr  (Target: INR 26 Cr)  ✓ +9.2% vs target
+  Gross Margin          : 62.3%        (Target: 60%)         ✓ Above target
+  Net New ARR           : INR 6.8 Cr   (Target: INR 7.5 Cr)  ✗ Miss by 9.3%
+  Churn (ARR)           : 3.1%         (Target: <3%)          ✗ Slightly above
+  Operating Cash Flow   : INR 3.1 Cr   Positive, up from Q4 2025
+
+Rahul Nair: "We overshot revenue targets, which is positive — but we missed
+on new ARR. Vikram, can you take us through what happened?"
+
+Vikram Shetty (VP Sales): "Two large enterprise deals that were expected to
+close in March slipped to Q2 — Zenith Insurance (INR 2.1 Cr ACV) and
+PrimeLine Logistics (INR 1.4 Cr ACV). Both are at final contract stage. Zenith
+had a procurement freeze; PrimeLine needed one more technical deep-dive session.
+Our pipeline is strong — INR 45 Cr qualified pipeline heading into Q2."
+
+Meera Iyer (CFO): "The revenue beat is partly driven by upsell from existing
+accounts. Neha's team did excellent work on the HDFC HealthCare expansion —
+INR 1.2 Cr upsell closed in February. Customer success-driven revenue is now
+11% of total ARR, up from 7% a year ago."
+
+PRODUCT & ENGINEERING HIGHLIGHTS
+  Arjun Sharma: "Engineering shipped 4 major milestones in Q1:"
+    1. NexusTech FinOS v3.5 released — 12 major features, including the
+       Reconciliation Engine redesign and Real-Time Transaction Monitoring.
+    2. LogiTrack multi-tenant migration completed — now supporting 15 enterprise
+       tenants on shared infrastructure, reducing hosting cost by 28%.
+    3. CloudDeploy Kubernetes Operator v2 released to early-access customers.
+    4. DataPulse predictive analytics module — beta shipped to 3 pilot clients.
+
+  Priya Khatri: "Platform team resolved 94% of P0/P1 production incidents
+  within SLA in Q1. We had 2 P0 incidents — both resolved within 2 hours.
+  Post-mortems completed and preventive measures deployed. Overall uptime
+  for FinOS was 99.94% in Q1."
+
+CUSTOMER SUCCESS SUMMARY
+  Neha Bansal (remote): "NPS for Q1 came in at 52, up from 46 in Q4 2025.
+  Key driver: improved onboarding experience (reduced time-to-first-value from
+  8 weeks to 5 weeks). We had 3 renewal expansions and 1 churn — Maxfield
+  Retail churned citing budget cuts; we've flagged their sector as at-risk for
+  Q2 monitoring."
+
+PEOPLE & HIRING — Q1 SUMMARY
+  Sarah Mitchell: "We ended Q1 with 187 full-time employees. We hired 14 new
+  engineers and 3 customer success managers. Attrition was 9.3% annualized —
+  above our 8% target. Exit interviews show two themes: compensation
+  competitiveness and career growth clarity. Both are on our Q2 agenda."
+
+DISCUSSION NOTE:
+  Rahul raised concern about churn rate exceeding target. Neha proposed a
+  "Customer Health Score" dashboard to proactively identify at-risk accounts.
+  Arjun committed to engineering support for data pipeline by May 1.
+  [ACTION-001: Neha + Arjun to align on Customer Health Score dashboard spec
+   by April 15.]
+
+================================================================================
+SESSION 2: Q2 2026 OKR SETTING — ENGINEERING (10:30 – 11:00 AM)
+================================================================================
+
+PRESENTER: Arjun Sharma, VP Engineering
+
+PROPOSED Q2 ENGINEERING OKRs:
+
+  OKR 1: Deliver NexusTech FinOS v4.0
+    KR1.1: Complete AI Anomaly Detection feature (production-ready by June 15)
+    KR1.2: Achieve 99.95% uptime commitment for all FinOS enterprise clients
+    KR1.3: Reduce average API response time from 180ms to <120ms (P95 latency)
+
+  OKR 2: Accelerate Engineering Velocity
+    KR2.1: Reduce avg PR review turnaround from 2.1 days to <1.5 days
+    KR2.2: Increase automated test coverage from 74% to ≥85% across all services
+    KR2.3: Reduce CI pipeline run time from 14 min to <10 min
+
+  OKR 3: Security & Compliance
+    KR3.1: Complete SOC 2 Type II audit preparation (audit scheduled Jul 2026)
+    KR3.2: Zero Tier-4 data policy violations in Q2
+    KR3.3: Resolve 100% of Critical and High Semgrep findings within 7 days
+
+  OKR 4: Platform Reliability
+    KR4.1: Complete disaster recovery drill for FinOS by May 30
+    KR4.2: Migrate remaining 3 legacy services from EC2 to EKS by June 30
+    KR4.3: Implement distributed tracing across all microservices (Datadog APM)
+
+DISCUSSION:
+  Kiran Rao: "On KR3.1, we need to be careful — SOC 2 prep requires significant
+  documentation effort. I'd recommend allocating 1 dedicated engineer + the
+  Security team for 6 weeks."
+  Arjun agreed and flagged this for the hiring discussion.
+  Ananya Subramaniam (Product, remote): "AI Anomaly Detection has a dependency
+  on DataPulse ML pipeline — Deepak's team needs to be aligned. Can Arjun
+  confirm timeline with him offline?"
+  [ACTION-002: Arjun + Deepak to sync on AI Anomaly Detection dependency
+   by April 10.]
+
+RESOLUTION: Engineering OKRs approved with minor edits to KR1.3 target
+(changed from P95 <100ms to <120ms based on current infrastructure capacity).
+
+================================================================================
+SESSION 3: Q2 2026 OKR SETTING — PRODUCT (11:00 – 11:20 AM)
+================================================================================
+
+PRESENTER: Ananya Subramaniam (Head of Product, remote)
+
+  OKR 1: Customer-Driven Feature Velocity
+    KR1.1: Ship top 5 features from Q1 customer feedback survey by June 30
+    KR1.2: Reduce average feature request-to-release cycle from 94 days to 75 days
+    KR1.3: Achieve ≥4.3/5 average satisfaction score on new feature releases
+
+  OKR 2: DataPulse GA (General Availability) Launch
+    KR2.1: Complete beta testing with all 3 pilot clients; collect NPS ≥50
+    KR2.2: Finalize pricing and packaging with Vikram's team by April 25
+    KR2.3: Launch DataPulse to all eligible existing clients by June 15
+
+  OKR 3: Product Documentation & Self-Serve
+    KR3.1: Publish updated API docs for FinOS v4.0 by June 1
+    KR3.2: Create 10 new "How-To" video guides in product help center
+    KR3.3: Reduce support tickets related to documentation gaps by 20%
+
+DISCUSSION:
+  Vikram Shetty: "DataPulse pricing discussion needs to happen no later than
+  April 20 — I have a prospect asking specifically about it this week."
+  Ananya: "I'll pull together the pricing analysis draft this weekend.
+  Can we do a async doc review first and then a focused 1-hour call?"
+  [ACTION-003: Ananya to share DataPulse pricing draft by April 8; Vikram + 
+   Meera to review and schedule pricing call by April 18.]
+
+  Rahul: "I want to flag that the top feature from Q1 survey was the 'Bulk
+  Import' workflow for FinOS — this came up in 3 renewal calls. Can this be
+  KR1.1's #1 priority?"
+  Ananya confirmed yes; Arjun confirmed it's in the Q2 sprint plan.
+
+================================================================================
+SESSION 4: Q2 2026 OKR SETTING — SALES & MARKETING (11:20 – 11:40 AM)
+================================================================================
+
+PRESENTER: Vikram Shetty (Sales) and Anjali Rao (Marketing)
+
+  SALES OKRs Q2:
+    KR1: Close INR 9 Cr in New ARR (includes 2 slipped Q1 deals)
+    KR2: Expand into 2 new enterprise accounts in Healthcare vertical
+    KR3: Achieve Sales Cycle < 90 days avg for mid-market deals
+    KR4: Pilot channel partner program — onboard 2 reseller partners
+
+  MARKETING OKRs Q2:
+    KR1: Generate 80 MQLs from inbound + content (up from 62 in Q1)
+    KR2: Launch NexusTech DataPulse go-to-market campaign (May 15 target)
+    KR3: Publish 6 thought leadership pieces (2 whitepapers + 4 blog posts)
+    KR4: Achieve 5,000 new LinkedIn followers organically
+    KR5: Host 1 customer webinar focused on BFSI sector (target: 200 registrants)
+
+DISCUSSION:
+  Anjali: "The DataPulse launch campaign needs final product feature list and
+  screenshots by May 1 — we need engineering cooperation here."
+  [ACTION-004: Ananya to provide product feature list + approved screenshots to
+   Anjali by April 28.]
+
+  Vikram: "Channel partner program is a new initiative — I need HR to create
+  a lightweight partner onboarding kit and Legal to prepare partner agreement
+  templates."
+  [ACTION-005: Sarah (HR) + Legal (Meera to assign) to prepare partner 
+   onboarding kit and agreement template by May 10.]
+
+================================================================================
+SESSION 5: BUDGET ALLOCATION Q2 (11:40 AM – 12:00 PM)
+================================================================================
+
+PRESENTER: Meera Iyer, CFO
+
+  Q2 2026 Budget Overview (INR Cr):
+  Department          | Q1 Actual | Q2 Budget | Change vs Q1
+  --------------------|-----------|-----------|-------------
+  Engineering (Eng)   | 8.2       | 9.1       | +10.9%
+  Product             | 1.8       | 2.0       | +11.1%
+  Sales               | 4.1       | 5.0       | +21.9%
+  Marketing           | 2.3       | 2.8       | +21.7%
+  HR & Operations     | 2.0       | 2.1       | +5.0%
+  IT & Security       | 0.9       | 1.2       | +33.3%
+  Finance & Legal     | 0.7       | 0.7       | 0%
+  TOTAL OPEX          | 20.0      | 22.9      | +14.5%
+
+  Key Additions in Q2 Budget:
+    - Engineering: +6 new hires (see Hiring Plan)
+    - IT/Security: +INR 0.3 Cr for SOC 2 audit and compliance tooling
+    - Sales: +2 enterprise AE hires + field event budget
+    - Marketing: DataPulse launch campaign (INR 0.6 Cr one-time)
+
+  Meera: "Q2 budget is frontloaded because of DataPulse launch and SOC 2.
+  We expect a return on both investments in Q3/Q4. The CFO Board presentation
+  for Q2 budget approval is April 8 — I need department heads to confirm
+  headcount plans by April 6."
+
+  [ACTION-006: All department heads to confirm Q2 headcount plans to Meera
+   by April 6, EOD.]
+
+================================================================================
+SESSION 6: HIRING PLAN Q2 (12:00 – 12:20 PM)
+================================================================================
+
+PRESENTER: Sarah Mitchell, CPO
+
+  Q2 2026 Open Headcount:
+
+  Role                            | Team       | Level     | Target Start
+  --------------------------------|------------|-----------|-------------
+  Senior Backend Engineer (2)     | FinOS      | L5        | May 1
+  ML Engineer                     | DataPulse  | L5        | May 15
+  DevSecOps Engineer              | Security   | L5        | May 1
+  Frontend Engineer               | Platform   | L4        | June 1
+  QA Engineer (Automation)        | Eng QA     | L4        | June 1
+  Enterprise AE (2)               | Sales      | Senior    | May 1
+  Customer Success Manager        | CS         | Mid       | May 15
+  Technical Content Writer        | Marketing  | Mid       | June 1
+
+  Total Q2 New Hires Target: 11
+
+  Sarah: "We're running JD finalization workshops this week. Interview panels
+  for engineering roles must be set up in Greenhouse by April 10. I need a
+  committed reviewer from each team — Arjun and Siddharth, I'll need your
+  engineers to be part of the interview loop."
+
+  Arjun: "Priya Khatri will coordinate engineering interview panels."
+
+  Attrition Risk: Sarah flagged that 3 senior engineers have been approached
+  by competitors. "We have a retention package proposal on the table — needs
+  CEO and CFO approval. Circulating offline."
+  [ACTION-007: Sarah to circulate retention package proposal to Rahul and
+   Meera by April 7 (confidential).]
+
+  Intern Hiring: NexusTech Summer Internship Program 2026 — 8 interns joining
+  June 1 (Engineering: 5, Data: 2, Marketing: 1). Onboarding plan to be
+  finalized by May 15.
+
+================================================================================
+SESSION 7: OPEN ISSUES / RISK REVIEW (12:20 – 12:50 PM)
+================================================================================
+
+PRESENTER: Rahul Nair, CEO (facilitated open discussion)
+
+RISK 1: FinOS v4.0 AI Feature — Timeline Risk
+  Owner: Arjun Sharma
+  Status: Amber
+  Detail: AI Anomaly Detection feature has a dependency on DataPulse ML pipeline
+  which is still in beta. If DataPulse pipeline isn't stabilized by May 1,
+  FinOS v4.0 June 15 target is at risk.
+  Mitigation: Arjun + Deepak to agree on a fallback — rule-based anomaly
+  detection as a temporary substitute if ML pipeline isn't ready.
+  [ACTION-008: Arjun to confirm AI feature fallback plan by April 12.]
+
+RISK 2: SOC 2 Audit Readiness
+  Owner: Kiran Rao
+  Status: Amber
+  Detail: SOC 2 Type II audit is scheduled for July 2026. Several access
+  control policies need documentation updates. New hire (DevSecOps) is
+  critical to this effort.
+  Mitigation: Kiran has prioritized 8 critical control gaps. Target: all gaps
+  resolved by June 20.
+  [ACTION-009: Kiran to share SOC 2 gap report with Arjun by April 10 and
+   track weekly via a shared Jira board.]
+
+RISK 3: Competitive Pressure — New Entrant in Logistics
+  Owner: Vikram Shetty
+  Status: Green (monitoring)
+  Detail: A VC-backed startup, TrackNow.ai, has launched a competing product
+  to LogiTrack targeting SMB/mid-market. Two of our prospects mentioned them.
+  Mitigation: Anjali's team is preparing competitive battle cards. Vikram's
+  team conducting win/loss analysis.
+  [ACTION-010: Anjali to deliver LogiTrack competitive battle card by April 21.]
+
+RISK 4: Engineering Burnout
+  Owner: Sarah Mitchell
+  Status: Amber
+  Detail: Pulse survey from March showed Engineering team engagement score
+  dropped from 74 to 66 (scale 0–100). Main concerns: sprint intensity,
+  technical debt accumulation, and unclear career ladders.
+  Mitigation: Arjun proposing 1 dedicated "technical debt sprint" per quarter.
+  Sarah to roll out revised engineering career ladders by May 15.
+  [ACTION-011: Arjun to schedule Q2 Technical Debt Sprint (2 weeks) by
+   April 15.]
+  [ACTION-012: Sarah to finalize and publish Engineering Career Ladder
+   document by May 15.]
+
+RISK 5: INR/USD Hedging for International Travel Budget
+  Owner: Meera Iyer
+  Status: Green
+  Detail: With 4 international conferences planned in Q2, Meera confirmed
+  treasury has hedged USD requirements at 83.5 INR/USD. No material risk.
+
+================================================================================
+SESSION 8: ANY OTHER BUSINESS (12:50 – 1:00 PM)
+================================================================================
+
+1. Rahul announced that NexusTech has been shortlisted for the "Best Fintech
+   Infrastructure Company" award at the ET BFSI Innovation Summit 2026. The
+   event is May 28 in Mumbai. Anjali to coordinate the nomination document
+   and ensure a team presence.
+   [ACTION-013: Anjali to lead ET BFSI award nomination; submit by April 20.]
+
+2. Arjun mentioned that the Engineering team is planning an offsite for Q2
+   (team size: ~45 engineers). Proposed dates: June 20–21, Coorg.
+   Sarah confirmed budget is available. Arjun to share venue proposals.
+   [ACTION-014: Arjun to share Engineering Offsite venue proposals to Sarah
+   and Meera by April 18.]
+
+3. Neha (Customer Success, remote) requested a "Voice of Customer" quarterly
+   report format be standardized and shared with leadership by end of each
+   quarter. Rahul approved.
+   [ACTION-015: Neha to create VoC Report template and share with Divya
+   by April 25.]
+
+================================================================================
+SESSION 9: ACTION ITEM REVIEW & CLOSE (1:00 – 1:30 PM)
+================================================================================
+
+FACILITATOR: Divya Menon read out all action items for confirmation:
+
+  #   | Action Item                                      | Owner        | Due Date
+  ----|--------------------------------------------------|--------------|----------
+  001 | Customer Health Score dashboard spec             | Neha + Arjun | Apr 15
+  002 | AI Anomaly Detection dependency sync             | Arjun+Deepak | Apr 10
+  003 | DataPulse pricing draft + pricing call           | Ananya+Vikram | Apr 8/18
+  004 | DataPulse feature list + screenshots to Mktg    | Ananya       | Apr 28
+  005 | Partner onboarding kit + agreement templates    | Sarah+Legal  | May 10
+  006 | Q2 headcount plans to CFO                       | All Dept Head| Apr 6
+  007 | Retention package proposal (confidential)       | Sarah        | Apr 7
+  008 | AI feature fallback plan                        | Arjun        | Apr 12
+  009 | SOC 2 gap report + Jira board                   | Kiran        | Apr 10
+  010 | LogiTrack competitive battle card               | Anjali       | Apr 21
+  011 | Q2 Technical Debt Sprint scheduling             | Arjun        | Apr 15
+  012 | Engineering Career Ladder document              | Sarah        | May 15
+  013 | ET BFSI Award nomination                        | Anjali       | Apr 20
+  014 | Engineering Offsite venue proposals             | Arjun        | Apr 18
+  015 | VoC Report template                             | Neha         | Apr 25
+
+NEXT STEPS:
+  - Divya to send meeting notes to all attendees and Deepak by April 7.
+  - OKRs to be published in Notion (OKR workspace) by April 9.
+  - Next Q2 check-in: May 9, 2026 (4 weeks) — Engineering + Product focused.
+  - Full Q2 Quarterly Business Review: July 3, 2026.
+
+MEETING CLOSED: 1:28 PM IST
+
+================================================================================
+NOTES PREPARED BY: Divya Menon, Chief of Staff
+REVIEWED BY: Rahul Nair (CEO) and Arjun Sharma (VP Engineering)
+DATE CIRCULATED: April 7, 2026
+
+DISTRIBUTION: Leadership Team + Deepak Nambiar (async)
+RECORDING: Available on Google Drive (Leadership > Meetings > Q2-Planning-Apr4)
+Access: Restricted to meeting attendees + their authorized delegates
+================================================================================

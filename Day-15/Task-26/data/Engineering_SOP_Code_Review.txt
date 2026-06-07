@@ -1,0 +1,489 @@
+================================================================================
+NEXUSTECH SOLUTIONS — ENGINEERING STANDARD OPERATING PROCEDURE
+DOCUMENT ID   : ENG-SOP-003
+TITLE         : Code Review Process
+VERSION       : 2.4
+EFFECTIVE DATE: February 1, 2026
+LAST REVIEWED : January 15, 2026
+APPROVED BY   : Arjun Sharma, VP Engineering & Priya Khatri, Engineering Manager
+DEPARTMENT    : Engineering
+CLASSIFICATION: Internal
+================================================================================
+
+TABLE OF CONTENTS
+-----------------
+1.  Purpose & Philosophy
+2.  Scope & Applicability
+3.  Code Review Roles
+4.  Branch & Commit Standards
+5.  Pull Request (PR) Guidelines
+6.  Review Checklist
+7.  Review Timelines & SLAs
+8.  Approval & Merge Rules
+9.  Review Etiquette & Communication
+10. Automated Checks (CI/CD Gates)
+11. Security Reviews
+12. Handling Disagreements
+13. Code Review for Hotfixes & Incidents
+14. Metrics & Reporting
+15. Tools & Integrations
+16. Onboarding to This Process
+17. Revision Log
+
+================================================================================
+1. PURPOSE & PHILOSOPHY
+================================================================================
+
+1.1 Purpose
+The code review process at NexusTech ensures that every change to the codebase
+meets our standards for correctness, security, maintainability, performance, and
+design. It serves as a collaborative quality gate and a knowledge-sharing
+mechanism across teams.
+
+1.2 Core Philosophy
+  - Code reviews are a conversation, not a gatekeeping exercise.
+  - The goal is to improve the code, not to judge the author.
+  - All feedback must be respectful, specific, and actionable.
+  - Reviewers are responsible for the code they approve.
+  - Speed and quality must both be respected: slow reviews block delivery;
+    rushed reviews create bugs.
+  - "Done" means merged, tested, and observable in production — not just
+    passing CI.
+
+1.3 Guiding Principles (The NexusTech Code Review Charter)
+  a) Be kind — critique the code, never the person.
+  b) Be specific — "this is bad" is not a review; point to exact lines.
+  c) Be constructive — propose an alternative, not just a criticism.
+  d) Be proportional — don't block a PR over nitpicks; use "nit:" labels.
+  e) Be timely — the longer a PR sits, the harder the eventual merge conflict.
+
+================================================================================
+2. SCOPE & APPLICABILITY
+================================================================================
+
+This SOP applies to:
+  - All changes to production, staging, and shared development branches.
+  - All NexusTech repositories hosted on GitHub Enterprise
+    (github.nexustech.in).
+  - All engineers: backend, frontend, mobile, data, ML, DevOps, QA.
+  - All languages and frameworks in use (Python, TypeScript, Go, Rust, SQL,
+    Terraform, Helm charts, Dockerfiles, etc.).
+
+Exemptions (require explicit approval from VP Engineering):
+  - Auto-generated files (migration files from ORM tools may be reviewed
+    lightly; still require CI to pass).
+  - Emergency hotfix merges (follow Section 13).
+
+================================================================================
+3. CODE REVIEW ROLES
+================================================================================
+
+AUTHOR (PR Owner):
+  - Writes the code and creates the PR.
+  - Provides complete context in the PR description.
+  - Responds to all review comments within 1 business day.
+  - Is responsible for the final correctness of the code.
+
+REVIEWER:
+  - Reads the code with the goal of understanding intent and finding issues.
+  - Checks the PR description first before diving into code.
+  - Leaves comments that are clear, kind, and actionable.
+  - Distinguishes between blocking issues vs. suggestions (see labeling below).
+  - Approves only when genuinely satisfied with the change.
+
+LEAD REVIEWER (for complex/cross-cutting changes):
+  - Senior engineer or tech lead assigned for architectural or security-
+    sensitive changes.
+  - Responsible for holistic design review, not just line-by-line.
+
+CODEOWNERS:
+  - Defined in the CODEOWNERS file in each repository.
+  - Auto-requested for review on changes to their owned paths.
+  - Approval from at least one CODEOWNER is required to merge affected files.
+
+================================================================================
+4. BRANCH & COMMIT STANDARDS
+================================================================================
+
+4.1 Branch Naming Convention
+  Format: <type>/<ticket-id>-<short-description>
+  Examples:
+    feat/NT-1234-user-auth-oauth2
+    fix/NT-5678-null-pointer-checkout
+    chore/NT-9012-upgrade-django-4.2
+    hotfix/NT-3456-payment-gateway-timeout
+    refactor/NT-7890-extract-notification-service
+
+  Types: feat, fix, chore, refactor, test, docs, hotfix, spike
+
+4.2 Commit Message Standards (Conventional Commits)
+  Format: <type>(<scope>): <short summary in imperative mood>
+  Examples:
+    feat(auth): add OAuth2 Google login support
+    fix(checkout): handle null cart session on payment initiation
+    refactor(notifications): extract email sender into standalone service
+    chore(deps): bump requests from 2.28.0 to 2.31.0
+
+  Rules:
+  - Maximum 72 characters in the first line.
+  - Add a body after a blank line for "why" context if non-obvious.
+  - Reference Jira ticket: "Closes NT-1234" in the PR or commit body.
+  - No "WIP", "temp", "asdf", or "fix" as sole commit messages.
+
+4.3 Atomic Commits
+  Each commit must represent one logical change. Avoid "mega commits" that
+  change dozens of files across unrelated concerns. Use `git rebase -i` to
+  squash/reorganize before opening a PR.
+
+================================================================================
+5. PULL REQUEST (PR) GUIDELINES
+================================================================================
+
+5.1 PR Size
+  Ideal PR size: < 400 lines changed (additions + deletions).
+  Large PR (400–800 lines): Must include a summary section in the PR description
+  and may require a design doc pre-review.
+  Very Large PR (800+ lines): Requires VP Engineering pre-approval or must be
+  broken down. Exceptions: auto-generated migration files, large refactors with
+  prior design review sign-off.
+
+5.2 PR Description Template (mandatory)
+  Every PR must include the following sections:
+
+  ## Summary
+  [1–3 sentences describing what this PR does and why]
+
+  ## Changes Made
+  [Bullet list of key changes — functions added/modified, DB schema changes,
+   new dependencies, config changes]
+
+  ## Jira Ticket
+  [Closes NT-XXXX / Relates to NT-YYYY]
+
+  ## Type of Change
+  [ ] Bug fix (non-breaking change that fixes an issue)
+  [ ] New feature (non-breaking change that adds functionality)
+  [ ] Breaking change (fix/feature that would break existing functionality)
+  [ ] Refactoring (no functional change, code improvement)
+  [ ] Infrastructure / DevOps change
+  [ ] Documentation update
+
+  ## Testing Done
+  [Describe what tests were added or updated; manual testing steps if applicable]
+
+  ## Screenshots / Demo
+  [For UI changes: before/after screenshots. For API changes: sample curl
+   request and response. Skip if not applicable.]
+
+  ## Checklist
+  - [ ] Self-reviewed the diff before opening PR
+  - [ ] Added/updated unit tests (coverage maintained or improved)
+  - [ ] Updated relevant documentation (README, OpenAPI spec, Confluence)
+  - [ ] No hardcoded secrets, credentials, or PII
+  - [ ] Database migrations are backward-compatible
+  - [ ] Feature flag added if this is a partial implementation
+  - [ ] Monitored relevant metrics/dashboards after deployment
+
+5.3 Draft PRs
+  Use Draft PRs (GitHub "Draft" status) when:
+  - Seeking early architectural feedback before completion.
+  - The PR is blocked by another dependency.
+  - Work in progress that isn't ready for full review.
+  Reviewers are not obligated to fully review draft PRs but may provide
+  early feedback.
+
+5.4 PR Labels
+  Authors must apply the appropriate label(s) from:
+    Priority: P0-urgent, P1-high, P2-normal, P3-low
+    Type: bug, feature, refactor, chore, hotfix, security
+    Status: needs-review, changes-requested, approved, blocked, on-hold
+    Special: needs-design-review, needs-security-review, breaking-change
+
+================================================================================
+6. REVIEW CHECKLIST
+================================================================================
+
+Reviewers should evaluate every PR against the following dimensions:
+
+6.1 Correctness
+  - Does the code correctly implement the stated requirement?
+  - Are all edge cases handled (null, empty, extreme values)?
+  - Are error paths handled and communicated to the caller/user clearly?
+  - Is the logic free from off-by-one errors, race conditions, or deadlocks?
+
+6.2 Security
+  - No hardcoded secrets, API keys, passwords, or tokens.
+  - User inputs are validated and sanitized (prevent SQLi, XSS, SSRF, etc.).
+  - Authentication and authorization checks are present where needed.
+  - Sensitive data is not logged.
+  - Dependencies introduced are reputable and not known-vulnerable.
+    (Check: `pip audit`, `npm audit`, `trivy` scan in CI)
+  - See IT-SEC-002 for full security requirements.
+
+6.3 Performance
+  - Are there any N+1 query problems?
+  - Are database queries indexed appropriately?
+  - Is expensive computation cached where appropriate?
+  - Are there any unbounded loops or O(n²) algorithms on large datasets?
+  - Memory usage: any potential leaks (unclosed files, connections)?
+
+6.4 Readability & Maintainability
+  - Code is self-explanatory; complex logic has inline comments.
+  - Functions/methods are short and do one thing (Single Responsibility).
+  - Variable and function names are descriptive and consistent with codebase
+    conventions.
+  - No dead code, commented-out code, or debug print statements left behind.
+
+6.5 Testing
+  - Unit tests cover the new/changed logic.
+  - Test cases cover happy path, edge cases, and failure scenarios.
+  - Tests are not fragile (not over-mocked; not relying on external services).
+  - Code coverage has not decreased (target: ≥80% line coverage per service).
+
+6.6 Design & Architecture
+  - Does the change follow established patterns in the codebase?
+  - No inappropriate tight coupling between modules.
+  - Does it introduce circular dependencies?
+  - Is there an opportunity to reuse existing utilities instead of reinventing?
+  - Does it align with the system design doc (if one exists)?
+
+6.7 Documentation
+  - Public APIs (REST, gRPC) have updated OpenAPI / protobuf documentation.
+  - Non-obvious decisions are explained in code comments or commit message.
+  - README or Confluence updated if behavior/setup instructions changed.
+
+================================================================================
+7. REVIEW TIMELINES & SLAs
+================================================================================
+
+PR Priority | First Review Response | Resolution (merge/close)
+------------|----------------------|--------------------------
+P0 (urgent) | Within 2 hours       | Within 1 business day
+P1 (high)   | Within 4 hours       | Within 2 business days
+P2 (normal) | Within 1 business day| Within 3 business days
+P3 (low)    | Within 2 business days | Within 5 business days
+
+Review Response: A review response includes submitting a review with at least
+one comment or approval — not just reading the PR silently.
+
+If a reviewer cannot meet the SLA, they must:
+  - Unassign themselves and suggest an alternative reviewer, OR
+  - Notify the author via Slack explaining the delay.
+
+Reviewers are expected to check GitHub notification queues twice daily
+(morning and after lunch).
+
+SLA Tracking: Engineering managers monitor PR age in the weekly Engineering
+Metrics dashboard (Datadog dashboard: "Code Review Health").
+
+================================================================================
+8. APPROVAL & MERGE RULES
+================================================================================
+
+Standard PRs:
+  - Minimum 2 approvals required from engineers at the same level or above.
+  - At least 1 approval must be from a relevant CODEOWNER if CODEOWNERS file
+    applies.
+  - All CI checks must pass (no exceptions without VP Engineering override).
+  - No unresolved "blocking" review comments.
+
+Security-Sensitive PRs (auth, payments, data encryption, infra):
+  - Additional approval from Security team (security@nexustech.in or
+    @security-team on GitHub) required.
+  - Reviewer must explicitly comment "security-approved" after review.
+
+Breaking Changes:
+  - Requires approval from Tech Lead + VP Engineering.
+  - Must be accompanied by a migration plan document.
+
+Merge Strategy:
+  Default: Squash and merge (keeps main branch history clean).
+  For long-running feature branches: Merge commit (preserves feature history).
+  Rebase: Allowed for individual contributors keeping their branch current;
+  never force-push to shared branches.
+
+Protected Branches: `main`, `production`, `release/*` branches are protected.
+Direct pushes are disabled. Bypass only possible by VP Engineering in
+documented emergencies.
+
+================================================================================
+9. REVIEW ETIQUETTE & COMMUNICATION
+================================================================================
+
+Comment Labels (Conventional Comments Standard):
+  Use these prefixes to classify comments:
+    nit:        Minor suggestion; not blocking. ("nit: consider renaming x to y")
+    suggestion: Optional improvement worth considering.
+    question:   Seeking understanding, not necessarily requesting a change.
+    issue:      Blocking concern — must be resolved before approval.
+    blocker:    Critical issue; PR must not merge until resolved.
+    praise:     Positive feedback — use it! ("praise: clever approach here")
+    todo:       Agreed upon improvement to be done in a follow-up ticket.
+
+Tone Guidelines:
+  DO:
+  - "What do you think about using a dictionary here instead of a list for
+    O(1) lookup? It would help when the dataset grows."
+  - "I noticed this function now handles 3 different concerns — could we
+    consider splitting it? Happy to discuss tradeoffs."
+  - "praise: this caching approach is elegant and well-tested!"
+
+  DON'T:
+  - "This is wrong."
+  - "Why would you do it this way?"
+  - "This is terrible code."
+
+Author Response Etiquette:
+  - Respond to every comment, even if just "Done" or "Good catch, fixed."
+  - If you disagree, explain why with reasoning — don't just dismiss.
+  - Resolve threads only after the reviewer acknowledges the fix.
+  - Do not resolve other people's threads; the commenter resolves theirs.
+
+================================================================================
+10. AUTOMATED CHECKS (CI/CD GATES)
+================================================================================
+
+All PRs must pass the following automated checks before merge is allowed:
+
+Check                     | Tool              | Failure = Block Merge?
+--------------------------|-------------------|------------------------
+Unit Tests                | pytest / Jest     | Yes
+Code Coverage             | Coverage.py / NYC | Yes (if < 80%)
+Linting                   | Ruff (Python), ESLint (JS/TS) | Yes
+Type Checking             | mypy (Python), TypeScript  | Yes
+Secret Scanning           | TruffleHog / GitHub Secret Scanning | Yes
+Dependency Vulnerability  | pip-audit / npm audit / Trivy | Yes (Critical/High)
+SAST (Static Analysis)    | Semgrep           | Yes (High/Critical)
+Docker Image Scan         | Trivy             | Yes (Critical CVEs)
+Build                     | Docker / Node build | Yes
+Integration Tests         | pytest (marked)   | Yes
+Performance Regression    | k6 (on P0/P1 PRs) | Yes (>10% regression)
+
+CI runs are triggered automatically on PR open and on every new commit.
+CI results are posted to the PR checks section and to #ci-alerts Slack channel.
+
+Build Times: Target < 10 minutes for full CI run. Optimize test suites if
+exceeding this; consult with DevOps team.
+
+================================================================================
+11. SECURITY REVIEWS
+================================================================================
+
+Mandatory security review triggers (in addition to standard review):
+  - Changes to authentication or authorization logic
+  - Changes to payment processing or financial calculations
+  - New API endpoints exposed publicly
+  - Changes to encryption, key management, or secret handling
+  - New third-party libraries or significant version bumps
+  - Infrastructure changes (Terraform, Helm, Kubernetes configs)
+  - Database schema changes involving PII fields
+
+Security Review Process:
+  1. Author adds the `needs-security-review` label.
+  2. Security team is auto-notified via GitHub CODEOWNERS.
+  3. Security reviewer completes review within P1 SLA timelines.
+  4. Security reviewer comments "SECURITY-LGTM" to indicate clearance.
+
+Vulnerability Disclosure: If a reviewer discovers a security vulnerability
+during code review, report it to security@nexustech.in immediately.
+Do not discuss vulnerabilities in public PR comments.
+
+================================================================================
+12. HANDLING DISAGREEMENTS
+================================================================================
+
+Level 1 — Async Discussion (in PR comments):
+  Author and reviewer exchange reasoning. Most disagreements resolve here.
+
+Level 2 — Sync Discussion (Slack / Huddle):
+  If async discussion stalls after 2 rounds, move to a 15-minute Slack huddle
+  or voice call. Document the outcome in the PR comment.
+
+Level 3 — Tech Lead Arbitration:
+  If still unresolved, escalate to the team's Tech Lead. Their decision is
+  binding unless architectural principles are in question.
+
+Level 4 — VP Engineering:
+  For cross-team architectural decisions or policy questions. VP Engineering
+  decision is final.
+
+Rule: PRs must not be blocked indefinitely. If a reviewer is non-responsive for
+>3 business days after final comments, the author may escalate to their manager.
+
+================================================================================
+13. CODE REVIEW FOR HOTFIXES & INCIDENTS
+================================================================================
+
+During an active P0 incident:
+  - Standard PR review requirements are relaxed to 1 approval (from a senior
+    engineer or on-call lead).
+  - CI must still pass (no bypassing tests without explicit CTO approval).
+  - A "hotfix" label must be applied.
+  - A follow-up "cleanup PR" must be created within 2 business days to
+    apply the full standard review process.
+  - Incident post-mortem must reference the hotfix PR.
+
+Hotfix Branch: Branch from `production`, merge back to `production` and `main`.
+
+================================================================================
+14. METRICS & REPORTING
+================================================================================
+
+Engineering managers track the following monthly metrics:
+  - Average PR review turnaround time (by team, by author)
+  - PR size distribution (% of PRs > 400 lines)
+  - Review participation rate (% of engineers actively reviewing)
+  - Rework rate (PRs requiring >3 rounds of feedback before merge)
+  - CI failure rate (% of PRs failing CI on first push)
+  - Open PR age (PRs open > 5 days flagged as stale)
+
+These metrics are published in the monthly Engineering Health Report and
+discussed in the bi-weekly Engineering All-Hands.
+
+================================================================================
+15. TOOLS & INTEGRATIONS
+================================================================================
+
+Platform      : GitHub Enterprise (github.nexustech.in)
+CI/CD         : GitHub Actions
+Code Quality  : SonarQube (sonar.nexustech.in) — linked to each PR
+Coverage      : Codecov (codecov.nexustech.in)
+PR Management : Linear (linked Jira tickets auto-close on merge)
+Notifications : Slack #code-review-requests (auto-posts new PRs for team)
+Dashboards    : Datadog "Code Review Health" dashboard
+
+PR Template: Stored at `.github/PULL_REQUEST_TEMPLATE.md` in each repo.
+CODEOWNERS: Stored at `.github/CODEOWNERS` in each repo.
+
+================================================================================
+16. ONBOARDING TO THIS PROCESS
+================================================================================
+
+New engineers must:
+  1. Read this SOP within the first week (tracked in Onboarding Checklist).
+  2. Complete the "Code Review at NexusTech" Loom video series (45 min)
+     in the Engineering Confluence space.
+  3. Shadow 3 code reviews before opening their first PR.
+  4. Have their first 5 PRs mentored by their onboarding buddy.
+  5. Attend the monthly Engineering Craft talk (often covers code review topics).
+
+================================================================================
+17. REVISION LOG
+================================================================================
+
+Version | Date           | Author              | Changes
+--------|----------------|---------------------|---------------------------
+1.0     | Mar 1, 2020    | Eng Team            | Initial process document
+1.5     | Jun 1, 2021    | Arjun Sharma        | Added security review section
+2.0     | Jan 1, 2023    | Priya Khatri        | Full rewrite; added CI gates,
+        |                |                     | conventional commits
+2.3     | Jun 1, 2024    | Arjun Sharma        | Added metrics section; PR
+        |                |                     | size guidelines revised
+2.4     | Feb 1, 2026    | Priya Khatri        | AI tool guidance; Semgrep
+        |                |                     | added; hotfix process updated
+
+================================================================================
+For queries, contact: engineering@nexustech.in
+Eng Confluence: confluence.nexustech.in/engineering
+GitHub: github.nexustech.in
+================================================================================

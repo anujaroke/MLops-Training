@@ -1,0 +1,441 @@
+================================================================================
+NEXUSTECH SOLUTIONS — INFORMATION TECHNOLOGY POLICY DOCUMENT
+DOCUMENT ID   : IT-SEC-002
+TITLE         : IT Security Policy & Guidelines
+VERSION       : 4.1
+EFFECTIVE DATE: January 1, 2026
+LAST REVIEWED : November 28, 2025
+APPROVED BY   : Kiran Rao, Chief Information Security Officer (CISO)
+DEPARTMENT    : Information Technology / Security
+CLASSIFICATION: Internal — All Employees & Contractors
+================================================================================
+
+TABLE OF CONTENTS
+-----------------
+1.  Purpose & Scope
+2.  Information Classification
+3.  Acceptable Use Policy
+4.  Password & Authentication Policy
+5.  Device & Endpoint Security
+6.  Network Security
+7.  Data Protection & Privacy
+8.  Email & Communication Security
+9.  Cloud & SaaS Usage
+10. Software & Application Policy
+11. Incident Reporting & Response
+12. Physical Security
+13. Third-Party & Vendor Access
+14. Security Awareness & Training
+15. Consequences of Non-Compliance
+16. Glossary
+17. Revision Log
+
+================================================================================
+1. PURPOSE & SCOPE
+================================================================================
+
+1.1 Purpose
+NexusTech Solutions handles sensitive customer data, intellectual property, and
+business-critical information. This IT Security Policy establishes the baseline
+security controls, practices, and responsibilities required to protect company
+and customer assets from unauthorized access, disclosure, modification, or
+destruction.
+
+1.2 Scope
+This policy applies to:
+  - All full-time employees, part-time employees, and interns.
+  - All contractors, vendors, and third parties accessing NexusTech systems.
+  - All NexusTech-owned, leased, and personally-owned (BYOD) devices used for
+    company work.
+  - All locations: Bangalore HQ, Mumbai, Hyderabad, Chennai, and remote setups.
+
+1.3 Regulatory Alignment
+This policy aligns with:
+  - ISO/IEC 27001:2022 Information Security Management Standard
+  - India's Information Technology Act, 2000 (and amendments)
+  - GDPR (for EU customer data handling)
+  - SOC 2 Type II requirements (applicable to product engineering teams)
+
+================================================================================
+2. INFORMATION CLASSIFICATION
+================================================================================
+
+All NexusTech information assets must be classified into one of the following
+four tiers:
+
+TIER 1 — PUBLIC
+  Definition: Information approved for public release (press releases, public
+  documentation, marketing materials).
+  Handling: No restrictions.
+  Examples: Website content, job postings, published blog articles.
+
+TIER 2 — INTERNAL
+  Definition: Information for employee use that is not sensitive but not meant
+  for public consumption.
+  Handling: Do not share outside the company without authorization.
+  Examples: Internal memos, team announcements, training materials.
+
+TIER 3 — CONFIDENTIAL
+  Definition: Sensitive business information that could harm the company if
+  disclosed.
+  Handling: Share only on a need-to-know basis; encrypt when transmitting;
+  do not store on personal devices.
+  Examples: Source code, financial reports, product roadmaps, customer lists,
+  employee salary data, vendor contracts.
+
+TIER 4 — RESTRICTED / SECRET
+  Definition: Highest sensitivity; unauthorized disclosure could cause severe
+  legal, financial, or reputational damage.
+  Handling: Access strictly controlled via IAM; encrypted at rest and in
+  transit; physical documents in locked cabinets; audit logs mandatory.
+  Examples: Customer PII, payment card data, M&A negotiations, security keys,
+  authentication credentials, penetration test reports.
+
+Classification Labels: All digital documents must carry classification in the
+document header/footer. All emails containing Tier 3 or 4 data must include
+"[CONFIDENTIAL]" or "[RESTRICTED]" in the subject line.
+
+================================================================================
+3. ACCEPTABLE USE POLICY
+================================================================================
+
+3.1 Permitted Uses
+  - Work-related communications, research, and development activities.
+  - Reasonable personal use that does not interfere with productivity or
+    violate any other provision of this policy.
+  - Using company-approved tools and platforms listed in the IT-approved
+    software catalog.
+
+3.2 Prohibited Activities
+The following are strictly prohibited on any NexusTech system or network:
+
+  a) Accessing, downloading, or distributing pornographic, hateful, or
+     otherwise offensive content.
+  b) Installing unauthorized software, browser extensions, or scripts.
+  c) Attempting to access systems, accounts, or data without authorization.
+  d) Using company resources for personal commercial activities, crypto-
+     currency mining, or running personal servers.
+  e) Sharing credentials (passwords, API keys, SSH keys) with any other
+     individual, including teammates.
+  f) Disabling security tools such as antivirus, EDR agents, or DLP software.
+  g) Connecting to corporate VPN from public/unsecured Wi-Fi without using an
+     additional VPN or hotspot.
+  h) Storing company data (Tier 3 or 4) on personal cloud storage (Google
+     Drive personal, Dropbox personal, iCloud, etc.).
+  i) Using unauthorized AI tools to process confidential company or customer
+     data (e.g., pasting Tier 3/4 data into public LLM chatbots).
+  j) Circumventing IT controls, firewalls, or content filters.
+
+================================================================================
+4. PASSWORD & AUTHENTICATION POLICY
+================================================================================
+
+4.1 Password Standards
+  Minimum length       : 14 characters
+  Complexity           : Must include uppercase, lowercase, numbers, and
+                         at least 2 special characters (!@#$%^&* etc.)
+  Prohibited passwords : Dictionary words, keyboard sequences (qwerty, 12345),
+                         personal information (name, DOB, employee ID),
+                         previous 12 passwords.
+  Maximum age          : 90 days for standard accounts; 30 days for privileged/
+                         admin accounts.
+  Password reuse       : Last 12 passwords cannot be reused.
+
+4.2 Multi-Factor Authentication (MFA)
+  Mandatory for: All corporate SSO logins, VPN access, cloud consoles (AWS,
+  GCP, Azure), code repositories (GitHub Enterprise), production server access,
+  HR and Finance systems.
+  Acceptable MFA methods (in order of preference):
+    1. Hardware security key (YubiKey — company-issued for engineers)
+    2. Authenticator app (Microsoft Authenticator or Google Authenticator)
+    3. SMS OTP (acceptable but discouraged for privileged accounts due to
+       SIM-swap risk)
+  MFA bypass codes: Must be stored in company-approved password manager
+  (1Password Teams), not in personal notes or email.
+
+4.3 Password Manager
+  All employees must use 1Password Teams for storing work-related credentials.
+  Sharing credentials via Slack, email, or any messaging platform is prohibited.
+  Use 1Password's "Share" feature for temporary secure credential sharing.
+
+4.4 Service Accounts & API Keys
+  API keys and service account credentials must:
+    - Be stored in HashiCorp Vault or AWS Secrets Manager.
+    - Never be hardcoded in source code, config files, or commit history.
+    - Be rotated every 60 days or immediately upon suspected compromise.
+    - Follow least-privilege principle (minimum permissions required).
+
+================================================================================
+5. DEVICE & ENDPOINT SECURITY
+================================================================================
+
+5.1 Company-Issued Devices
+  All NexusTech-issued laptops, desktops, and mobile devices must:
+  - Run the latest approved OS version (auto-updates enabled).
+  - Have full-disk encryption enabled (BitLocker for Windows, FileVault for
+    macOS, LUKS for Linux).
+  - Have Crowdstrike Falcon EDR agent installed and running at all times.
+  - Be enrolled in Mobile Device Management (MDM) — Jamf for macOS,
+    Intune for Windows.
+  - Have screen lock set to activate after 5 minutes of inactivity.
+  - Require PIN/password/biometric to unlock.
+  - Have the NexusTech VPN (WireGuard) client installed.
+
+5.2 BYOD (Bring Your Own Device)
+  Personal devices may be used for work email and Slack only, under these
+  conditions:
+  - Device must run a supported OS (Android 12+, iOS 16+).
+  - Company apps must be installed via the managed app catalog.
+  - IT may perform a remote wipe of company data from the device if the device
+    is reported lost, stolen, or the employee leaves the company.
+  - Employees must accept the BYOD agreement before enrollment.
+  BYOD devices cannot access code repositories, production systems, or any
+  Tier 3/4 data.
+
+5.3 Device Loss or Theft
+  Report immediately to IT Security at security@nexustech.in or call the
+  Security Hotline: +91-80-4567-8901 (available 24x7).
+  IT will immediately revoke all sessions and initiate remote wipe.
+  Employee must file an FIR if the device is stolen.
+
+5.4 End-of-Life Devices
+  Devices retired from service must be sanitized by IT using DoD 5220.22-M
+  standard (7-pass wipe) or physical destruction for SSDs before disposal.
+
+================================================================================
+6. NETWORK SECURITY
+================================================================================
+
+6.1 VPN Policy
+  All employees working remotely must connect to the NexusTech corporate VPN
+  before accessing any internal systems.
+  VPN credentials are unique per employee; sharing is prohibited.
+  VPN access is logged and audited.
+
+6.2 Office Network
+  Company Wi-Fi networks are segmented:
+    - NexusTech-Corp   : Employee devices (requires MDM enrollment)
+    - NexusTech-Guest  : Visitors / personal devices (internet only)
+    - NexusTech-IoT    : Conference room devices, printers (isolated)
+  Connecting personal devices to NexusTech-Corp is prohibited.
+
+6.3 Firewall & DNS
+  Outbound internet access is filtered via Zscaler Web Proxy.
+  DNS requests are resolved via company-controlled DNS-over-HTTPS (DoH).
+  Employees must not change DNS settings on company devices.
+
+6.4 Port & Protocol Controls
+  Only approved ports and protocols may be used for internal services.
+  Opening firewall rules requires a change request approved by the Security team.
+
+================================================================================
+7. DATA PROTECTION & PRIVACY
+================================================================================
+
+7.1 Data Storage
+  All Tier 3/4 data must be stored on NexusTech-managed storage systems
+  (SharePoint, AWS S3 with SSE, or company-approved databases).
+  Storing Tier 3/4 data on personal devices or unapproved cloud services is
+  strictly prohibited.
+
+7.2 Data Transmission
+  All data in transit must be encrypted using TLS 1.2 or higher.
+  Internal file transfers must use SFTP or company-managed file-sharing tools.
+  USB drives are prohibited for transferring Tier 3/4 data. If required,
+  encrypted USB devices may be used with prior IT approval.
+
+7.3 Data Retention & Disposal
+  Data Retention periods:
+    - Customer transaction data    : 7 years
+    - Employee records             : 7 years post employment
+    - Security logs                : 1 year online, 3 years archived
+    - Marketing campaign data      : 3 years
+  Data past retention period must be disposed of per the Data Disposal SOP
+  (IT-SOP-DataDisposal-007).
+
+7.4 Customer Data Handling
+  Customer PII must never be used in non-production environments (dev/staging)
+  unless anonymized or synthetically generated.
+  Any employee accessing customer data must have a legitimate business reason
+  and such access is logged and auditable.
+
+================================================================================
+8. EMAIL & COMMUNICATION SECURITY
+================================================================================
+
+8.1 Email
+  Company email (Google Workspace) is the official communication channel.
+  Phishing awareness: Employees must not click links or download attachments in
+  suspicious emails. Report suspicious emails via the "Report Phishing" button
+  in Gmail or forward to phishing@nexustech.in.
+  Do not send Tier 3/4 data via email unless encrypted with S/MIME or using
+  Google Confidential Mode.
+  Auto-forward of work emails to personal accounts is disabled and prohibited.
+
+8.2 Slack
+  Slack is used for internal team communication.
+  Slack messages are subject to the same data classification rules.
+  Do not share credentials, API keys, or sensitive customer data in Slack,
+  even in private channels.
+  #incident-response and #security-alerts are monitored channels.
+
+8.3 Video Conferencing
+  Use only approved platforms: Google Meet or Zoom (company account).
+  Do not record calls containing Tier 3/4 information without explicit consent
+  of all participants.
+  Waiting rooms must be enabled for external meetings.
+
+================================================================================
+9. CLOUD & SaaS USAGE
+================================================================================
+
+Approved cloud platforms: AWS (primary), GCP (secondary), Azure (HR systems).
+All cloud resources must be provisioned via the Infrastructure-as-Code (IaC)
+pipeline; manual provisioning in production is prohibited without Change Mgmt.
+
+Approved SaaS tools (as of Q1 2026):
+  Productivity    : Google Workspace, Notion, Confluence
+  Communication   : Slack, Zoom, Google Meet
+  Engineering     : GitHub Enterprise, Jira, Datadog, PagerDuty, Sentry
+  HR & Finance    : Darwinbox (HRMS), Zoho Books, Expensify
+  Security        : 1Password Teams, Crowdstrike, Zscaler, HashiCorp Vault
+  AI Tools        : GitHub Copilot (approved), Gemini for Workspace (approved)
+
+Shadow IT: Using any tool not on the approved list with company data requires
+written approval from IT Security and Legal. Submit requests to
+it-approvals@nexustech.in.
+
+================================================================================
+10. SOFTWARE & APPLICATION POLICY
+================================================================================
+
+Only software from the IT-approved catalog may be installed on company devices.
+Employees may request new software via the IT portal (helpdesk.nexustech.in).
+
+Open-source software used in products must be reviewed for license compatibility
+(GPL, LGPL, MIT, Apache) by the Legal team before inclusion.
+
+Software license compliance: IT tracks licenses via Flexera. Employees must not
+install software for which NexusTech does not hold a license.
+
+Browser extensions: Only extensions from the IT-approved list are permitted on
+company devices. Unapproved extensions must be removed.
+
+================================================================================
+11. INCIDENT REPORTING & RESPONSE
+================================================================================
+
+11.1 What to Report
+  - Lost or stolen devices
+  - Suspected phishing or social engineering attempts
+  - Unauthorized access to systems or data
+  - Accidental exposure of Tier 3/4 data (including sending to wrong recipient)
+  - Malware alerts or unusual system behavior
+  - Discovery of hardcoded secrets in code
+
+11.2 How to Report
+  Email    : security@nexustech.in
+  Slack    : #security-incidents channel (do not share details publicly)
+  Hotline  : +91-80-4567-8901 (24x7)
+  Portal   : helpdesk.nexustech.in → Security Incident
+
+11.3 Response Timeline (by Severity)
+  Critical (data breach, ransomware, production compromise):
+    - Detection to response: < 1 hour
+    - CISO and CTO notified immediately
+    - Customer notification per legal obligation within 72 hours (GDPR)
+  High (unauthorized access, privilege escalation):
+    - Response: < 4 hours
+  Medium (phishing attempt, policy violation):
+    - Response: < 24 hours
+  Low (minor configuration issue, informational):
+    - Response: < 72 hours
+
+11.4 Post-Incident
+  All Critical and High incidents require a post-mortem document within 5
+  business days. Post-mortems are blameless and focus on systemic improvement.
+
+================================================================================
+12. PHYSICAL SECURITY
+================================================================================
+
+- Office entry requires badge access for all employees and visitors.
+- Visitors must sign in at reception and wear visitor badges at all times.
+- Server rooms require two-factor physical access (badge + PIN).
+- Clean desk policy: Confidential physical documents must be locked away.
+  Workstations must be locked when unattended.
+- No photography or recording in server rooms or R&D labs.
+- Tailgating/piggybacking through secured doors is prohibited.
+
+================================================================================
+13. THIRD-PARTY & VENDOR ACCESS
+================================================================================
+
+- Vendors requiring access to NexusTech systems must sign an NDA and the
+  Vendor Security Addendum before access is provisioned.
+- Third-party access must follow least-privilege principles and be time-bound.
+- All vendor access is logged and reviewed quarterly.
+- Vendors accessing Tier 4 data must complete a security assessment by NexusTech
+  Security team.
+
+================================================================================
+14. SECURITY AWARENESS & TRAINING
+================================================================================
+
+- All employees must complete the Annual Security Awareness Training (2 hours)
+  within 30 days of joining and every January thereafter.
+- Engineering teams must complete the Secure Coding Fundamentals course annually.
+- NexusTech conducts quarterly phishing simulations; employees who fail 2
+  consecutive simulations must attend remedial training.
+- The Security team publishes a monthly "Security Bulletin" newsletter.
+
+================================================================================
+15. CONSEQUENCES OF NON-COMPLIANCE
+================================================================================
+
+Violation Severity | Consequence
+-------------------|-------------------------------------------------------
+Minor              | Verbal warning; re-training required
+Moderate           | Written warning; access temporarily restricted
+Serious            | Formal disciplinary action; potential role change
+Critical           | Immediate suspension; potential termination; legal action
+                   | (applies to willful data exfiltration, sabotage, fraud)
+
+NexusTech reserves the right to monitor all company systems and devices for
+compliance with this policy. Monitoring is disclosed to employees upon onboarding.
+
+================================================================================
+16. GLOSSARY
+================================================================================
+
+EDR    : Endpoint Detection & Response
+MDM    : Mobile Device Management
+MFA    : Multi-Factor Authentication
+PII    : Personally Identifiable Information
+SaaS   : Software as a Service
+SIEM   : Security Information & Event Management
+SSO    : Single Sign-On
+IaC    : Infrastructure as Code
+DLP    : Data Loss Prevention
+IAM    : Identity and Access Management
+CISO   : Chief Information Security Officer
+
+================================================================================
+17. REVISION LOG
+================================================================================
+
+Version | Date           | Changed By          | Summary
+--------|----------------|---------------------|---------------------------
+1.0     | Mar 1, 2018    | IT Security Team    | Initial release
+2.0     | Jan 1, 2020    | Kiran Rao (CISO)    | GDPR alignment; added cloud
+3.0     | Jan 1, 2022    | Kiran Rao (CISO)    | Remote work enhancements;
+        |                |                     | added BYOD; ZeroTrust intro
+4.0     | Jan 1, 2024    | Kiran Rao (CISO)    | AI tool governance; added
+        |                |                     | HashiCorp Vault guidance
+4.1     | Jan 1, 2026    | Kiran Rao (CISO)    | Updated MFA; Crowdstrike
+        |                |                     | EDR; revised incident SLAs
+
+================================================================================
+For queries, contact: security@nexustech.in | Hotline: +91-80-4567-8901
+Security Portal: helpdesk.nexustech.in/security
+================================================================================

@@ -1,0 +1,437 @@
+================================================================================
+NEXUSTECH SOLUTIONS — FINANCE POLICY DOCUMENT
+DOCUMENT ID   : FIN-POL-004
+TITLE         : Expense Reimbursement Policy
+VERSION       : 2.6
+EFFECTIVE DATE: January 1, 2026
+LAST REVIEWED : December 5, 2025
+APPROVED BY   : Meera Iyer, Chief Financial Officer
+DEPARTMENT    : Finance
+CLASSIFICATION: Internal — All Employees
+================================================================================
+
+TABLE OF CONTENTS
+-----------------
+1.  Purpose & Scope
+2.  General Principles
+3.  Expense Categories & Limits
+    3.1  Business Travel — Domestic
+    3.2  Business Travel — International
+    3.3  Accommodation
+    3.4  Meals & Entertainment
+    3.5  Client Entertainment
+    3.6  Local Transportation
+    3.7  Communication & Internet
+    3.8  Office Supplies & Equipment
+    3.9  Training & Conference
+    3.10 Team Events & Offsites
+4.  Expense Submission Process
+5.  Approval Hierarchy
+6.  Reimbursement Timeline
+7.  Non-Reimbursable Expenses
+8.  Corporate Credit Card Policy
+9.  Advances
+10. International Travel Currency Guidelines
+11. Audit & Compliance
+12. Violations & Consequences
+13. FAQs
+14. Revision Log
+
+================================================================================
+1. PURPOSE & SCOPE
+================================================================================
+
+1.1 Purpose
+This policy governs the reimbursement of legitimate business expenses incurred
+by NexusTech Solutions employees in the course of performing their duties. It
+ensures fair treatment, fiscal responsibility, and audit compliance.
+
+1.2 Scope
+Applies to all permanent employees, contract staff (where explicitly stated in
+their contract), and interns (with pre-approved limits). Contractors billing via
+invoice are governed by their separate agreements.
+
+================================================================================
+2. GENERAL PRINCIPLES
+================================================================================
+
+  - Spend company money as you would spend your own — thoughtfully and wisely.
+  - When in doubt, ask your manager before incurring an expense.
+  - All expenses must be legitimate, business-necessary, and reasonable.
+  - Original receipts are required for all claims above INR 200.
+  - Expenses must be submitted within 30 days of being incurred. Late
+    submissions require Finance Director approval; submissions >90 days old
+    will not be reimbursed except in exceptional circumstances.
+  - No expense may be split across multiple submissions to circumvent limits.
+  - Employees must not approve their own expenses.
+  - Managers are equally accountable for the expenses they approve.
+
+================================================================================
+3. EXPENSE CATEGORIES & LIMITS
+================================================================================
+
+3.1 BUSINESS TRAVEL — DOMESTIC
+--------------------------------
+Applicable for travel within India for meetings, client visits, conferences,
+or inter-office visits when more than 50 km from the employee's base location.
+
+Mode of Travel — Economy Class (mandatory for all domestic travel):
+
+  By Air:
+    - Book via the approved travel portal (MakeMyTrip Corporate) at least
+      7 days in advance to access negotiated fares.
+    - Advance booking discount savings must not be forfeited without reason.
+    - Business class is not permitted for domestic travel.
+    - Seat upgrades at personal cost are the employee's prerogative.
+
+  By Train:
+    - AC 1st Class (1A) for overnight journeys (>4 hours).
+    - AC 2nd Class (2A) for shorter journeys.
+    - Tatkal bookings require manager pre-approval.
+
+  By Road (Long Distance):
+    - Cab/taxi from the approved vendor list only (Ola Corporate, Uber
+      Business, or company cab pool).
+    - Personal vehicle use: Reimbursed at INR 7/km for four-wheelers,
+      INR 4/km for two-wheelers. Fuel receipts not required for mileage
+      reimbursement but odometer readings must be noted.
+
+  Travel Grades & Per-Diem (Domestic):
+  Grade         | Role Level            | Daily Per-Diem (Meals+Incidental)
+  --------------|----------------------|-----------------------------------
+  Grade 1       | C-Suite / VP         | INR 2,500/day
+  Grade 2       | Senior Manager / Lead| INR 1,800/day
+  Grade 3       | Manager / Senior Eng | INR 1,400/day
+  Grade 4       | Engineer / Analyst   | INR 1,000/day
+  Grade 5       | Intern / Junior      | INR 700/day
+
+  Per-diem covers meals and incidentals; hotel is reimbursed separately.
+
+3.2 BUSINESS TRAVEL — INTERNATIONAL
+--------------------------------------
+Pre-approval required from: Department Head + CFO for travel costs > USD 3,000.
+
+By Air:
+  - Economy class mandatory for flights < 8 hours.
+  - Premium Economy permitted for flights ≥ 8 hours.
+  - Business class: Permitted for C-Suite and VP levels only, or for flights
+    ≥ 12 hours for Grade 2 and above with CFO approval.
+  - Booking must be done via the corporate travel desk at least 14 days in
+    advance.
+  - Unused tickets: Cancellations must be reported to travel desk immediately
+    to recover refunds.
+
+International Per-Diem (USD per day, all inclusive — meals + incidentals):
+  Destination       | Grade 1 | Grade 2 | Grade 3 | Grade 4
+  ------------------|---------|---------|---------|--------
+  USA/Canada        | $200    | $160    | $130    | $100
+  UK/Western Europe | $180    | $150    | $120    | $95
+  Southeast Asia    | $120    | $100    | $85     | $70
+  Middle East       | $140    | $115    | $95     | $75
+  Australia/NZ      | $160    | $135    | $110    | $85
+
+  Per-diem is reduced by 25% for the departure and arrival day.
+  Per-diem covers meals and incidentals; hotel is reimbursed separately.
+
+Visa & Travel Insurance:
+  - Visa fees are reimbursed 100% with official receipts.
+  - NexusTech provides corporate travel insurance for all international
+    trips. Employees must register the trip with the travel desk to activate
+    coverage.
+
+3.3 ACCOMMODATION
+------------------
+Domestic Hotel Limits (per night, INR):
+  City Tier        | Grade 1  | Grade 2  | Grade 3  | Grade 4
+  -----------------|----------|----------|----------|--------
+  Metro (Mumbai,   |          |          |          |
+  Bangalore,Delhi) | 9,000    | 7,000    | 5,000    | 3,500
+  Tier-2 Cities    | 6,000    | 5,000    | 3,500    | 2,500
+  Tier-3 / Others  | 4,000    | 3,500    | 2,500    | 2,000
+
+  - Book through MakeMyTrip Corporate or approved hotel partner list.
+  - Airbnb permitted when hotel options are unavailable; requires same-night
+    rate evidence.
+  - Personal upgrades (suite, etc.) are at employee expense.
+  - Room service meals are included in per-diem and are not separately
+    reimbursable.
+  - Minibar charges, personal TV movies, spa, gym are NOT reimbursable.
+
+International Hotel Limits (per night, USD):
+  Region           | Grade 1  | Grade 2  | Grade 3  | Grade 4
+  -----------------|----------|----------|----------|--------
+  USA/Canada       | $280     | $220     | $180     | $150
+  UK/Western Europe| $260     | $200     | $165     | $130
+  Southeast Asia   | $180     | $140     | $110     | $90
+  Australia/NZ     | $240     | $190     | $155     | $120
+
+3.4 MEALS & ENTERTAINMENT
+---------------------------
+Meals while traveling are covered under per-diem (see 3.1 and 3.2).
+
+Working meals in home city (team lunches, working dinner):
+  - Must have a clear business purpose.
+  - Minimum 3 employees to qualify as a team meal.
+  - Limit: INR 500/person per meal.
+  - The most senior person at the meal must submit the expense.
+
+3.5 CLIENT ENTERTAINMENT
+--------------------------
+Covers meals, events, or outings with customers, prospects, or partners.
+  - Pre-approval from manager required for expenses > INR 5,000.
+  - Must document: client name, company, business purpose, attendees.
+  - Alcohol: Moderate alcohol included in client entertainment (at manager
+    discretion); receipt must not itemize alcohol separately (use meal total).
+  - Gifts to clients: Up to INR 3,000 per client per year (branded merchandise
+    only from the company store); cash gifts prohibited.
+  - Per-person limit for client entertainment: INR 3,000/person for meals;
+    INR 8,000/person for events (sports, concerts).
+
+3.6 LOCAL TRANSPORTATION
+--------------------------
+Daily office commute is NOT reimbursable.
+Reimbursable local transport scenarios:
+  - Client/customer site visit from office: Actual fare, cab receipt required.
+  - Airport/station to office or hotel: Actual fare, receipt required.
+  - Late-night office departure (after 10 PM): Cab fare reimbursed up to
+    INR 600 per instance (request must be pre-declared to manager on the day).
+
+Preferred cab vendors: Ola Corporate, Uber Business, company cab empaneled
+vendors. Personal vehicles: INR 7/km (4-wheeler), INR 4/km (2-wheeler).
+
+3.7 COMMUNICATION & INTERNET
+------------------------------
+Mobile/Data:
+  - Company SIM holders: Bill directly to company (standard plan covered).
+  - Non-company SIM: Monthly mobile reimbursement:
+      Engineers & above: INR 1,000/month
+      Sales & field staff: INR 1,500/month
+      Others            : INR 600/month
+  - International roaming: Actual cost up to USD 50/day (bill to corporate
+    travel account).
+
+Internet (Remote Work):
+  - Home broadband for remote workers: Up to INR 1,200/month reimbursed.
+  - Submit ISP bill or screenshot of payment monthly.
+
+3.8 OFFICE SUPPLIES & EQUIPMENT
+---------------------------------
+  - Office supplies (pens, notebooks, etc.): Up to INR 500/month without
+    prior approval; submit receipt.
+  - Equipment for home office (remote workers): Covered under Remote Work
+    Policy (see Remote_Work_Policy document) — different approval process.
+  - Software subscriptions needed for work: Must be requested via IT portal;
+    do not purchase personal licenses and seek reimbursement unless pre-
+    approved (it bypasses IT license tracking).
+
+3.9 TRAINING & CONFERENCE
+---------------------------
+  - External training, courses, certifications: Covered under the Learning &
+    Development budget (separate from expense reimbursement). Submit via
+    Training Request form in Darwinbox.
+  - Conference registration fees: Covered if conference is pre-approved by
+    manager and department head. Include agenda/description with claim.
+  - Professional memberships (IEEE, ACM, etc.): Up to INR 5,000/year per
+    employee with manager approval.
+
+3.10 TEAM EVENTS & OFFSITES
+-----------------------------
+  - Team lunches/dinners (quarterly): Budget INR 600/person, approved by
+    manager.
+  - Offsites: Budget and venue require VP and Finance approval.
+    Budgeting guidelines: INR 8,000–15,000/person per day for domestic
+    offsites (inclusive of stay, meals, and activities).
+  - Team celebration for milestones, product launches: Up to INR 500/person
+    from the team engagement budget; pre-approved by manager.
+
+================================================================================
+4. EXPENSE SUBMISSION PROCESS
+================================================================================
+
+Step 1 — Collect Receipts:
+  Keep all receipts. Digital receipts (email, WhatsApp) are acceptable.
+  For expenses > INR 500, original receipts preferred; scanned copies accepted.
+
+Step 2 — Submit via Expensify:
+  Log in to Expensify (linked via SSO at expensify.nexustech.in).
+  Create an Expense Report for each trip or month.
+  Upload receipts, categorize expenses, add business purpose notes.
+  Link to relevant Jira/project ticket if expense is project-specific.
+
+Step 3 — Manager Approval:
+  Manager reviews and approves in Expensify within 3 business days.
+  Manager may reject with reason; employee must address and resubmit.
+
+Step 4 — Finance Review:
+  Finance team audits randomly and reviews all reports > INR 20,000.
+  Finance may request additional documentation.
+
+Step 5 — Reimbursement:
+  Approved expenses are reimbursed via direct bank transfer in the next
+  payroll cycle or within 7 business days for urgent requests.
+
+================================================================================
+5. APPROVAL HIERARCHY
+================================================================================
+
+Expense Amount       | Approver
+---------------------|------------------------------------------
+Up to INR 10,000     | Direct Manager
+INR 10,001–50,000    | Department Head / Senior Manager
+INR 50,001–2,00,000  | VP / Director + Finance Manager
+Above INR 2,00,000   | CFO approval required
+International Travel | Department Head + CFO (always)
+
+C-Suite expenses are approved by the CFO.
+CFO expenses are approved by the CEO.
+
+================================================================================
+6. REIMBURSEMENT TIMELINE
+================================================================================
+
+Standard submission: Reimbursed in the next monthly payroll (processed on the
+28th of each month).
+Expense report submission deadline for current month payroll: 20th of the month.
+Urgent reimbursement (> INR 10,000 with manager approval): Within 7 business
+days via ad-hoc bank transfer.
+
+================================================================================
+7. NON-REIMBURSABLE EXPENSES
+================================================================================
+
+The following expenses will NOT be reimbursed under any circumstances:
+
+  - Daily office commute (home to office and back)
+  - Traffic fines, parking tickets, or speeding fines
+  - Personal clothing, toiletries, or grooming (even during business travel)
+  - Alcohol purchased for personal consumption (not as part of client
+    entertainment)
+  - Tobacco products
+  - Personal entertainment (movies, personal streaming subscriptions,
+    amusement parks) during travel
+  - Hotel minibar, gym, spa, laundry (beyond 5-day trips)
+  - Expenses for non-employees (family, friends) accompanying on business trips
+  - Gambling or lottery
+  - Political donations
+  - Personal insurance or medical expenses (covered by company health insurance
+    separately)
+  - Gym memberships or fitness equipment
+  - Expenses for which no receipt exists (for amounts > INR 200)
+  - Late submission penalties (airfare change fees incurred due to employee
+    negligence)
+
+================================================================================
+8. CORPORATE CREDIT CARD POLICY
+================================================================================
+
+Corporate credit cards (HDFC Corporate Card) are issued to:
+  - All employees at Grade 2 and above
+  - Employees with frequent travel requirements (>4 trips/year) at any grade
+
+Card Usage:
+  - Must be used for eligible business expenses only.
+  - Receipts must still be uploaded to Expensify within 5 days of the charge.
+  - Personal charges on corporate card must be reimbursed to the company
+    within 5 business days.
+  - Credit limit: INR 1,00,000 (Grade 4); INR 2,00,000 (Grade 3); 
+    INR 5,00,000 (Grade 2 and above).
+
+Card Loss: Report immediately to Finance (finance@nexustech.in) and the bank.
+Card is deactivated within 2 hours of report.
+
+================================================================================
+9. ADVANCES
+================================================================================
+
+Travel advances up to 80% of estimated trip cost may be requested for domestic
+travel. 100% advance for international trips.
+Submit Advance Request in Expensify at least 5 business days before travel.
+Unused advance must be refunded within 5 business days of returning.
+Outstanding advance blocks future advance requests and delays increments if
+not settled for >30 days.
+
+================================================================================
+10. INTERNATIONAL TRAVEL CURRENCY GUIDELINES
+================================================================================
+
+  - Use Forex card (company-arranged via HDFC Forex) for international trips.
+  - Cash carry limit: As per RBI limits (currently USD 10,000 equivalent).
+  - All international expenses submitted in local currency; Finance converts
+    at the official SBI TT buying rate on the date of the expense.
+  - Foreign exchange loss/gain due to delay in submission is borne by the
+    employee.
+
+================================================================================
+11. AUDIT & COMPLIANCE
+================================================================================
+
+Finance conducts a 100% audit of all expenses exceeding INR 50,000 and a 10%
+random audit of all other expenses.
+Expense data is retained for 7 years per financial regulations.
+Employees selected for audit must provide original receipts and supporting
+context within 5 business days.
+All expense reports are subject to review during statutory audits.
+
+================================================================================
+12. VIOLATIONS & CONSEQUENCES
+================================================================================
+
+Category               | Examples                  | Consequence
+-----------------------|---------------------------|------------------------------
+Honest Mistake         | Missing receipt, wrong    | Employee corrects and
+                       | category                  | resubmits; no penalty
+Policy Violation       | Claiming non-reimbursable | Recovery of amount from
+                       | expenses                  | salary + written warning
+Abuse / Fraud          | Fake receipts, inflated   | Recovery + termination
+                       | claims, collusion         | + possible legal action
+Manager Misconduct     | Approving fraudulent      | Same as above; manager
+                       | expenses                  | equally liable
+
+Whistleblower: Employees who report expense fraud in good faith are protected
+under NexusTech's Whistleblower Policy. Report to ethics@nexustech.in
+(anonymous reporting available).
+
+================================================================================
+13. FAQs
+================================================================================
+
+Q: Can I book hotels on personal loyalty accounts?
+A: Yes. Keep all loyalty points earned on business travel; this is a personal
+   benefit. Just ensure the hotel and rate comply with policy.
+
+Q: What if the approved vendor doesn't have availability?
+A: Document the unavailability (screenshot) and book the next best option;
+   add a note in your expense report.
+
+Q: Can I claim expenses in cash if POS is unavailable?
+A: For amounts up to INR 500, a self-declaration with the purpose is accepted.
+   Above INR 500, a handwritten receipt from the vendor (with their name and
+   signature) is required.
+
+Q: Who do I contact for Expensify technical issues?
+A: Contact it-helpdesk@nexustech.in or raise a ticket at helpdesk.nexustech.in.
+
+Q: Are tips reimbursable?
+A: Customary tips during client entertainment (up to 10% of bill) are
+   reimbursable. Include in the total bill amount.
+
+================================================================================
+14. REVISION LOG
+================================================================================
+
+Version | Date           | Changed By          | Summary
+--------|----------------|---------------------|---------------------------
+1.0     | Jan 1, 2019    | Finance Team        | Initial release
+2.0     | Jan 1, 2022    | Meera Iyer (CFO)    | Complete overhaul; added
+        |                |                     | international travel; Expensify
+2.4     | Jan 1, 2024    | Meera Iyer (CFO)    | Updated per-diem rates; BYOD
+        |                |                     | internet reimbursement added
+2.6     | Jan 1, 2026    | Meera Iyer (CFO)    | Grade-wise limits revised;
+        |                |                     | client entertainment gift limit
+        |                |                     | updated; Forex card guidance
+
+================================================================================
+For queries, contact: finance@nexustech.in | Ext: 2001
+Expensify: expensify.nexustech.in
+Travel Desk: traveldesk@nexustech.in
+================================================================================

@@ -1,0 +1,529 @@
+================================================================================
+NEXUSTECH SOLUTIONS — MARKETING DOCUMENT
+DOCUMENT ID   : MKT-BRAND-005
+TITLE         : Brand Voice & Guidelines
+VERSION       : 1.8
+EFFECTIVE DATE: March 1, 2026
+LAST REVIEWED : February 10, 2026
+APPROVED BY   : Anjali Rao, VP Marketing & Communications
+DEPARTMENT    : Marketing
+CLASSIFICATION: Internal (Design assets: Confidential)
+================================================================================
+
+TABLE OF CONTENTS
+-----------------
+1.  Brand Overview & Mission
+2.  Brand Personality & Voice
+3.  Tone of Voice Guidelines
+4.  Logo Usage Rules
+5.  Color Palette
+6.  Typography
+7.  Imagery & Photography Style
+8.  Iconography
+9.  Writing Style Guide
+10. Social Media Guidelines
+11. Presentation & Slide Templates
+12. Email Signature Standards
+13. Naming & Terminology Conventions
+14. Do's and Don'ts
+15. Brand Asset Library
+16. Revision Log
+
+================================================================================
+1. BRAND OVERVIEW & MISSION
+================================================================================
+
+About NexusTech Solutions
+NexusTech Solutions is a mid-size technology company headquartered in Bangalore,
+India, with offices in Mumbai, Hyderabad, and Chennai. Founded in 2015, we build
+enterprise software products and cloud solutions for clients in BFSI, healthcare,
+logistics, and retail sectors across India and Southeast Asia.
+
+Our Mission:
+"Empowering enterprises with intelligent, scalable, and human-centric technology
+solutions that turn complexity into competitive advantage."
+
+Our Vision:
+"To be the most trusted technology partner for mid-market enterprises in
+South and Southeast Asia by 2030."
+
+Our Core Values:
+  1. Integrity First — We are transparent, honest, and accountable.
+  2. Customer Obsession — Our clients' success is our success.
+  3. Engineering Excellence — We build things that last.
+  4. Inclusive Innovation — Great ideas come from everywhere.
+  5. Radical Ownership — We don't blame; we solve.
+
+Brand Positioning Statement:
+NexusTech Solutions stands for dependable, sophisticated technology — the kind
+that enterprises trust with their most critical operations. We are not a startup
+chasing hype; we are a reliable partner building long-term relationships through
+consistent delivery and deep domain expertise.
+
+Target Audience:
+  Primary: CTOs, CIOs, and IT Decision Makers in mid-market enterprises
+           (500–5,000 employees) in BFSI, Healthcare, and Logistics.
+  Secondary: Engineering leads, Product managers, and Procurement teams.
+  Tertiary: Developers and technical evaluators conducting PoC assessments.
+
+================================================================================
+2. BRAND PERSONALITY & VOICE
+================================================================================
+
+If NexusTech Solutions were a person, they would be:
+  "A seasoned senior engineer who has become a trusted advisor to business
+  leaders — technically brilliant, calm under pressure, straight-talking,
+  and genuinely invested in helping clients succeed. Not flashy, not
+  buzzword-heavy, but deeply credible and always reliable."
+
+Brand Personality Attributes:
+  - Authoritative but Approachable
+  - Technically Rigorous but Human
+  - Confident but Not Arrogant
+  - Forward-Looking but Grounded
+  - Precise but not Pedantic
+
+What we are NOT:
+  - We are NOT a hyped-up startup using buzzwords to compensate for substance.
+  - We are NOT overly casual or jokey in B2B contexts.
+  - We are NOT stiff, robotic, or overly formal in a way that feels detached.
+  - We are NOT vague or fluffy ("leveraging synergies," "holistic transformation").
+
+================================================================================
+3. TONE OF VOICE GUIDELINES
+================================================================================
+
+3.1 Core Tone Dimensions
+
+  AUTHORITATIVE (not arrogant):
+    Write from a position of expertise. Make claims we can back up.
+    ✓ "NexusTech's supply chain platform reduces order processing time by 40%
+       on average across our 80+ enterprise deployments."
+    ✗ "NexusTech is the market leader in supply chain technology."
+
+  CLEAR (not jargon-heavy):
+    Use plain language. Explain technical concepts simply.
+    ✓ "Our API handles 50,000 requests per second with 99.99% uptime."
+    ✗ "Our hyper-scalable, AI-native, cloud-agnostic microservices architecture
+       delivers frictionless digital transformation."
+
+  HUMAN (not robotic):
+    Write as one human to another. Acknowledge challenges, show empathy.
+    ✓ "We know migrating legacy systems is stressful. We've guided 60+
+       enterprises through it — here's what we've learned."
+    ✗ "NexusTech Solutions offers legacy modernization services."
+
+  CONFIDENT (not pushy):
+    Describe our capabilities firmly; don't beg or oversell.
+    ✓ "Book a demo to see our platform in action."
+    ✗ "Please give us a chance to show you! You won't be disappointed!!!"
+
+  SPECIFIC (not vague):
+    Use numbers, examples, and real outcomes wherever possible.
+    ✓ "Deployed in 9 months. Zero production downtime since launch."
+    ✗ "We deliver fast, high-quality projects."
+
+3.2 Tone by Channel
+
+  Website / Product Pages:
+    Confident, benefit-led, specific. Lead with outcomes, not features.
+    "Your finance team closes 3x faster. Our reconciliation engine makes it
+    possible."
+
+  Case Studies / Whitepapers:
+    Authoritative, data-driven, narrative-led. Tell the client's story.
+    Let measurable outcomes speak. Avoid self-congratulatory language.
+
+  LinkedIn / Social Media:
+    Conversational but professional. Educational and thought-leadership
+    oriented. Engagement > promotion.
+    Mix: 60% thought leadership, 20% product/company news, 20% culture/team.
+
+  Email (Marketing):
+    Personalized, clear subject lines, short paragraphs, single clear CTA.
+    Never use all-caps subject lines. Never use "RE:" falsely.
+
+  Press Releases:
+    Formal AP Style. Third-person references only. Include quotes from
+    named spokespeople (CEO, VP Marketing, or client contact).
+
+  Sales Collateral (Pitch Decks, One-Pagers):
+    Crisp, punchy, visual. Use the client's language / industry terms.
+    Lead with their pain, then our solution, then proof.
+
+  Internal Communications:
+    Direct and human. Assume intelligence. Respect people's time.
+    No corporate fluff; get to the point.
+
+================================================================================
+4. LOGO USAGE RULES
+================================================================================
+
+4.1 Primary Logo
+  The NexusTech Solutions logo consists of:
+    - The "Nexus N" mark (geometric, interlocking node symbol in brand blue)
+    - The wordmark "NexusTech Solutions" in Graphik Semibold
+
+  Approved logo files are located in the Brand Asset Library:
+    Confluence: confluence.nexustech.in/brand/assets/logos
+    Formats available: SVG, PNG (transparent), PDF, EPS
+
+4.2 Logo Variants
+  Full Lockup (horizontal): Default for most uses.
+  Stacked Lockup: For square/compact spaces (app icons, social avatars).
+  Symbol Only ("N" mark): Only for contexts where the brand is already
+  established (social media profile icons, favicons, badges, watermarks).
+  Wordmark Only: Do not use without special approval from Marketing.
+
+4.3 Logo Clearance Zone
+  Minimum clear space around the logo = Height of the "N" symbol on all sides.
+  Never place text, icons, or imagery within this clearance zone.
+
+4.4 Minimum Size
+  Print: Minimum 25mm wide for full lockup; 8mm for symbol only.
+  Digital: Minimum 120px wide for full lockup; 32px for symbol only.
+
+4.5 Prohibited Logo Modifications
+  - Do NOT stretch, skew, or rotate the logo.
+  - Do NOT change the logo colors.
+  - Do NOT add drop shadows, gradients, or outlines to the logo.
+  - Do NOT place the logo on a busy background without a clear background
+    panel.
+  - Do NOT recreate the logo in a different font or style.
+  - Do NOT use old versions of the logo (pre-2023 refresh).
+
+4.6 Logo on Backgrounds
+  On white/light backgrounds: Use full-color logo.
+  On dark/brand-blue backgrounds: Use white reversed logo.
+  On photographs: Use white logo with subtle drop shadow, or place over a
+  semi-transparent dark overlay.
+
+================================================================================
+5. COLOR PALETTE
+================================================================================
+
+PRIMARY COLORS
+  Brand Blue (Primary)
+    HEX: #1A4FCC    RGB: 26, 79, 204    CMYK: 87, 61, 0, 20
+    Pantone: 2728 C
+    Usage: Primary CTAs, headings, logo, key data points.
+
+  Midnight Navy (Dark)
+    HEX: #0D1F4D    RGB: 13, 31, 77     CMYK: 100, 80, 0, 45
+    Usage: Dark backgrounds, footers, premium/enterprise contexts.
+
+  Clean White
+    HEX: #FFFFFF    RGB: 255, 255, 255
+    Usage: Backgrounds, reverse text on dark.
+
+SECONDARY COLORS
+  Electric Teal (Accent)
+    HEX: #00C8C0    RGB: 0, 200, 192
+    Usage: Data visualizations, highlights, badges, hover states. Use sparingly.
+
+  Warm Slate (Neutral)
+    HEX: #F4F6FA    RGB: 244, 246, 250
+    Usage: Card backgrounds, section dividers, subtle UI elements.
+
+  Carbon Grey
+    HEX: #3D3D3D    RGB: 61, 61, 61
+    Usage: Body text on white backgrounds.
+
+STATUS / FUNCTIONAL COLORS
+  Success Green : #18A34A
+  Warning Amber : #F59E0B
+  Error Red     : #DC2626
+  Info Blue     : #2563EB
+
+USAGE RULES
+  - Brand Blue is the dominant color; use in ≥60% of color application.
+  - Electric Teal is an accent — use for emphasis, not as background.
+  - Maintain AA accessibility standards for text contrast ratios
+    (minimum 4.5:1 for body text, 3:1 for large text).
+
+================================================================================
+6. TYPOGRAPHY
+================================================================================
+
+PRIMARY TYPEFACE: Graphik (licensed via Klim Type Foundry)
+  Graphik Semibold  : H1, H2 headings, navigation, logo wordmark
+  Graphik Medium    : H3, H4 subheadings, CTA buttons, callouts
+  Graphik Regular   : Body text, UI labels, captions
+
+SECONDARY TYPEFACE: Inter (Google Fonts — free)
+  Inter Medium      : UI interfaces, dashboards, data-heavy contexts
+  Inter Regular     : UI body text, form labels
+  Usage: When Graphik is unavailable (e.g., Google Docs, Notion).
+
+CODE / MONOSPACE: JetBrains Mono
+  Usage: Code samples, terminal outputs, technical documentation.
+
+SYSTEM FALLBACK (email, presentations if fonts unavailable):
+  Arial / Helvetica Neue (never Comic Sans, Times New Roman, or Papyrus)
+
+TYPE SCALE (Web):
+  H1: 48px / 52px line height / Graphik Semibold
+  H2: 36px / 42px / Graphik Semibold
+  H3: 28px / 36px / Graphik Medium
+  H4: 22px / 30px / Graphik Medium
+  Body Large: 18px / 28px / Graphik Regular
+  Body: 16px / 26px / Graphik Regular
+  Small / Caption: 14px / 22px / Graphik Regular
+
+  Letter spacing: -0.02em for headings; 0 for body.
+
+================================================================================
+7. IMAGERY & PHOTOGRAPHY STYLE
+================================================================================
+
+7.1 Style Direction
+  Photography and imagery at NexusTech should feel:
+    - Real and authentic (not stock-photo-generic)
+    - Technically sophisticated (clean environments, purposeful setups)
+    - Diverse and inclusive (reflect the teams we are and the clients we serve)
+    - Optimistic and progressive (forward-looking, not nostalgic)
+
+7.2 People Photography
+  DO:
+    - Show real NexusTech employees (with consent) or diverse stock talent.
+    - Show genuine interactions: collaboration, problem-solving, focused work.
+    - Include diverse representation: gender, ethnicity, age, ability.
+  DON'T:
+    - Overly staged, fake-smiling "stock photo" poses.
+    - All-male engineering teams or homogenous groups.
+    - Outdated office aesthetics (cubicle farms, old monitors).
+
+7.3 Technology / Product Photography
+  DO:
+    - Clean, minimal, high-contrast product screens on modern hardware.
+    - Data visualizations, dashboards, and interfaces should look real/polished.
+    - Dark-mode UI photography for premium/enterprise contexts.
+  DON'T:
+    - Blurry or pixelated screenshots.
+    - Showing competitor products.
+    - Generic "lock and shield" cybersecurity stock images.
+
+7.4 Color Treatment
+  Apply Brand Blue or Midnight Navy tints to photography when used in headers
+  or hero sections. Overlay opacity: 60–75% for readability.
+
+7.5 Approved Stock Sources
+  Getty Images (corporate account: mkt-design@nexustech.in)
+  Unsplash (free; filter for commercial use)
+  Pexels (free; filter for commercial use)
+  Do NOT use images from Google Image Search directly.
+
+================================================================================
+8. ICONOGRAPHY
+================================================================================
+
+Primary Icon Set: Phosphor Icons (open-source; phosphoricons.com)
+Style: Regular weight by default; Bold for emphasis; Thin for decorative.
+Size: 20px in UI; 24px for feature icons; 48px for section illustrations.
+Color: Inherit from parent (usually Carbon Grey or Brand Blue).
+
+Custom illustrations: Flat, geometric style in brand palette.
+Avoid isometric 3D illustrations (they feel dated).
+Illustration supplier: Brand team creates; external request via
+mkt-design@nexustech.in.
+
+================================================================================
+9. WRITING STYLE GUIDE
+================================================================================
+
+9.1 General Rules
+  - Use Oxford comma: "data, privacy, and security" not "data, privacy and
+    security."
+  - Use active voice: "We built X" not "X was built by us."
+  - Spell out numbers one through nine; use numerals for 10 and above.
+  - Use % (not "percent") with numerals: "40%", "8%".
+  - Dates: Use "January 15, 2026" (not "15th January" or "1/15/26").
+  - Times: "2:00 PM IST" (use 12-hour format with AM/PM; include timezone).
+  - Currency: "INR 5,000" or "₹5,000" for Indian rupee; "USD 2,000" for US
+    dollars.
+  - Em dash: Use — (em dash) not - (hyphen) for parenthetical clauses.
+    No spaces around em dash in headlines; one space on each side in body.
+
+9.2 Product & Feature Naming
+  Capitalize product names: NexusTech FinOS, NexusTech LogiTrack,
+  NexusTech CloudDeploy.
+  Lowercase descriptive terms: "dashboard," "API," "reporting module."
+  Never use casual abbreviations in external communication:
+    ✓ "NexusTech FinOS"    ✗ "finOS" or "the finance thing"
+
+9.3 Preferred Terminology
+  SAY                         | AVOID
+  ----------------------------|------------------------
+  Enterprise clients          | Customers (in B2B context)
+  Platform                    | Tool (minimizes perceived value)
+  Engineering team            | Dev team (in external docs)
+  Deployment                  | Launch (for technical context)
+  Onboarding                  | Training (implies difficulty)
+  Partnership                 | Vendor relationship
+  Scalable                    | Only if we can prove it with data
+  AI-powered                  | AI-enabled, AI-assisted (be specific)
+  Cloud-native                | SaaS (if not strictly SaaS)
+
+9.4 Inclusive Language
+  Use gender-neutral language in all communications:
+    "they/them" as singular pronoun when gender unknown.
+    "team" or "staff" instead of "guys."
+    "chair" instead of "chairman."
+    "workforce" instead of "manpower."
+
+================================================================================
+10. SOCIAL MEDIA GUIDELINES
+================================================================================
+
+Official Channels (managed by Marketing):
+  LinkedIn : linkedin.com/company/nexustech-solutions (primary B2B channel)
+  Twitter/X: @NexusTechSol
+  YouTube  : youtube.com/@nexusTechSolutions
+  GitHub   : github.com/nexustech-solutions (engineering/OSS work)
+
+Posting Frequency:
+  LinkedIn: 5 times per week
+  Twitter : 3–4 times per week
+  YouTube : 2 videos per month minimum
+
+Content Pillars:
+  1. Thought Leadership & Engineering Insights (40%)
+  2. Product / Feature Announcements (20%)
+  3. Company Culture / Hiring (20%)
+  4. Client Stories / Case Studies (20%)
+
+Employee Advocacy:
+  - Employees are encouraged to share company content.
+  - When posting about NexusTech professionally, disclose your role.
+  - Do not share confidential information, unreleased product details, or
+    client names without written consent.
+  - Do not make statements that could be construed as official company policy.
+  - Social media posts by employees are personal but reflect on the brand;
+    apply the same respect and professionalism you would in person.
+
+Hashtags (official):
+  #NexusTechSolutions #BuildWithNexus #EnterpriseAI #FinTechIndia
+  #CloudNative #EngineeringExcellence
+
+================================================================================
+11. PRESENTATION & SLIDE TEMPLATES
+================================================================================
+
+Official templates are available in Google Slides:
+  - Corporate Pitch Deck Template
+  - Client QBR Deck Template
+  - All-Hands / Town Hall Template
+  - Webinar / Event Slide Template
+  - Internal Report Template
+
+Access: Drive link in Brand Asset Library on Confluence.
+
+Rules:
+  - Always use the latest template version (check version number in footer).
+  - Do not change fonts, colors, or master slide layouts.
+  - Company logo must appear on every slide (placed in template; do not move).
+  - Client logos may be added to designated co-branding areas only.
+  - Do not use animations/transitions other than those in the template.
+  - Confidentiality footer must be present on all client-facing decks.
+
+================================================================================
+12. EMAIL SIGNATURE STANDARDS
+================================================================================
+
+Standard email signature format (all external-facing employees):
+
+  [Full Name]
+  [Job Title] | [Department]
+  NexusTech Solutions
+  📞 +91-[XXXXXXXXXX]
+  🌐 www.nexustech.in
+  🔗 linkedin.com/in/[your-profile]
+  [Office Location, City]
+
+  [Brand Tagline: "Engineering Tomorrow's Enterprise"]
+  [Optional: Certified logos: ISO 27001, SOC 2, NASSCOM Member]
+
+Signature Setup: IT provides a Google Workspace signature template.
+Install via: helpdesk.nexustech.in → Signature Setup.
+Do NOT modify font, size, or add personal quotes, images, or GIFs to signatures.
+
+================================================================================
+13. NAMING & TERMINOLOGY CONVENTIONS
+================================================================================
+
+Company Name:
+  Full: "NexusTech Solutions" (first reference in any document)
+  Short: "NexusTech" (subsequent references)
+  Never: "Nexus", "NTS", "nexustech", "NEXUSTECH"
+
+Products:
+  NexusTech FinOS        — Core banking and financial operations platform
+  NexusTech LogiTrack    — Supply chain and logistics management platform
+  NexusTech CloudDeploy  — Cloud infrastructure management platform
+  NexusTech DataPulse    — Enterprise analytics and BI platform
+  NexusTech SecureCore   — Enterprise identity and access management
+
+Never abbreviate product names in external communications (FinOS alone is
+acceptable only in technical documentation after full name is established).
+
+================================================================================
+14. DO'S AND DON'TS
+================================================================================
+
+DO:
+  ✓ Lead with client outcomes and specific numbers.
+  ✓ Use real employee and client quotes (with permission).
+  ✓ Write in active voice.
+  ✓ Maintain consistent terminology across all documents.
+  ✓ Proofread everything before publishing.
+  ✓ Get Legal review for any content making legal/compliance claims.
+  ✓ Attribute sources for third-party statistics.
+
+DON'T:
+  ✗ Use "disruptive," "revolutionary," "game-changing," "synergize," or
+    "leverage" as generic qualifiers.
+  ✗ Make performance claims without supporting data.
+  ✗ Reference competitor names negatively.
+  ✗ Use Comic Sans, WordArt, or non-brand fonts anywhere.
+  ✗ Share client names or logos without a signed logo permission form.
+  ✗ Post company news on personal social media before official announcement.
+  ✗ Use ALL CAPS for emphasis (use **bold** in markdown, weight in design).
+
+================================================================================
+15. BRAND ASSET LIBRARY
+================================================================================
+
+All approved brand assets (logos, templates, icons, photography) are stored in:
+  Confluence: confluence.nexustech.in/brand/assets
+  Google Drive: Brand & Marketing → Brand Assets → [Version 2026]
+
+File Organization:
+  /logos          — All logo variants, formats, and size-specific files
+  /colors         — Color swatches (ASE, SCSS, Figma variables)
+  /typography     — Font files and web font embed codes
+  /templates      — Google Slides, Docs, and email templates
+  /photography    — Approved NexusTech photography with model releases
+  /icons          — Custom icon sets and Phosphor icon downloads
+  /merchandise    — Branded merchandise specifications
+
+For new asset requests, email: mkt-design@nexustech.in with a 3-day turnaround
+for standard requests; 24-hour for urgent.
+
+================================================================================
+16. REVISION LOG
+================================================================================
+
+Version | Date           | Changed By          | Summary
+--------|----------------|---------------------|---------------------------
+1.0     | Jan 1, 2022    | Marketing Team      | Initial brand guidelines
+1.3     | Jun 1, 2023    | Anjali Rao (VP Mkt) | Post brand refresh; new
+        |                |                     | logo, colors, typography
+1.6     | Jan 1, 2025    | Anjali Rao (VP Mkt) | Added social media section;
+        |                |                     | AI imagery guidelines
+1.8     | Mar 1, 2026    | Anjali Rao (VP Mkt) | Updated product names;
+        |                |                     | inclusive language section
+
+================================================================================
+For queries, contact: marketing@nexustech.in | mkt-design@nexustech.in
+Brand Portal: confluence.nexustech.in/brand
+================================================================================

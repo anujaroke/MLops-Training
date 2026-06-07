@@ -1,0 +1,310 @@
+================================================================================
+NEXUSTECH SOLUTIONS — HUMAN RESOURCES POLICY
+Document ID     : NT-HR-008
+Title           : Performance Review Process
+Version         : 3.0
+Effective Date  : January 1, 2026
+Last Reviewed   : December 5, 2025
+Owner           : People Operations Team
+Approved By     : Chief People Officer — Priya Nair
+Classification  : Internal Use Only
+================================================================================
+
+1. PURPOSE & PHILOSOPHY
+────────────────────────
+NexusTech Solutions believes that performance management is not an annual event — it is
+a continuous, human-centered process. The Performance Review Process exists to:
+  - Give every employee clear, actionable feedback on their contributions
+  - Align individual goals with company OKRs
+  - Recognize and reward high performance fairly and transparently
+  - Identify growth areas and provide structured development support
+  - Inform compensation decisions, promotions, and role changes
+
+We follow a "no surprises" principle: nothing in a formal performance review should be
+a surprise. Managers are expected to deliver real-time feedback throughout the year so
+that formal reviews are a summary — not a revelation.
+
+2. REVIEW CYCLES
+─────────────────
+
+NexusTech operates a dual-cycle performance review model:
+
+  MID-YEAR CHECK-IN (July)
+    - Informal, forward-looking conversation between employee and manager
+    - No formal rating; goal is to course-correct and re-energize H2 goals
+    - Completed via Workday check-in form
+    - Estimated time: 30–45 minutes 1:1 conversation
+
+  ANNUAL PERFORMANCE REVIEW (December–January)
+    - Formal review covering the full calendar year (Jan 1 – Dec 31)
+    - Includes self-assessment, manager assessment, and peer feedback (360°)
+    - Results in a performance rating that informs compensation and promotion decisions
+    - Timeline:
+        Phase 1 — Self-Assessment Open       : December 1
+        Phase 2 — Peer Nominations Due        : December 5
+        Phase 3 — Peer Feedback Deadline      : December 15
+        Phase 4 — Manager Assessment Deadline : January 5
+        Phase 5 — Calibration Sessions        : January 6–15
+        Phase 6 — Results Communicated        : January 20–31
+        Phase 7 — Compensation Letters Sent   : February 1–7
+
+  PROBATIONARY REVIEW (30/60/90 Day — New Hires Only)
+    - 30-day check-in: Culture fit, onboarding progress, early concerns
+    - 60-day check-in: Role clarity, initial productivity, relationship building
+    - 90-day formal review: Formal pass/extend probation/end employment decision
+    - Conducted by direct manager; HR Business Partner joins the 90-day review
+
+3. PERFORMANCE RATING SCALE
+─────────────────────────────
+NexusTech uses a 5-level rating scale:
+
+  Rating 5 — EXCEPTIONAL
+    Definition  : Consistently exceeds all goals; delivers results that create outsized
+                  impact well beyond the scope of the role; serves as a role model.
+    Expectation : Rare — approximately 5–10% of the population
+    Implication : Strong promotion case; top-of-band merit increase; spot bonus eligible
+
+  Rating 4 — EXCEEDS EXPECTATIONS
+    Definition  : Consistently meets all goals and frequently exceeds them; takes on
+                  additional scope; demonstrates impact beyond role definition.
+    Expectation : ~20–25% of population
+    Implication : Above-median merit increase; promotion consideration
+
+  Rating 3 — MEETS EXPECTATIONS
+    Definition  : Consistently delivers on all core responsibilities and goals;
+                  reliable, effective, and valuable team member.
+    Expectation : ~50–60% of population (the "strong performer" baseline)
+    Implication : Standard merit increase; solid standing
+
+  Rating 2 — PARTIALLY MEETS EXPECTATIONS
+    Definition  : Inconsistently meets goals; some areas of strong performance offset
+                  by gaps; may be new to role or navigating significant challenges.
+    Expectation : ~10–15% of population
+    Implication : Below-median or no merit increase; Performance Improvement Plan (PIP)
+                  discussion initiated; close manager support provided
+
+  Rating 1 — DOES NOT MEET EXPECTATIONS
+    Definition  : Consistently fails to meet core responsibilities; despite coaching
+                  and support, performance remains below acceptable threshold.
+    Expectation : < 5% of population
+    Implication : Formal PIP required; no merit increase; employment at risk
+
+  Note: Distribution guidance is not a forced ranking. Managers evaluate each employee
+  independently. The distribution is a calibration check, not a quota.
+
+4. GOAL SETTING (OKRs)
+───────────────────────
+
+4.1 Framework
+NexusTech uses the OKR (Objectives and Key Results) framework company-wide.
+
+  Objective  : Qualitative, inspiring, direction-setting statement
+  Key Result : Quantitative, measurable outcome that signals the objective is achieved
+               (2–5 Key Results per Objective)
+
+Example OKR (Engineering):
+  Objective  : Deliver a best-in-class API platform that developers love
+  Key Results:
+    KR1 — Reduce average API response time from 320ms to under 150ms by Q3
+    KR2 — Achieve 99.95% API uptime across all production endpoints (up from 99.8%)
+    KR3 — Increase API developer NPS from 42 to 65 as measured by Q4 survey
+    KR4 — Launch v2 API with versioning support and deprecation policy by October 31
+
+4.2 Goal-Setting Timeline
+  - Company OKRs published by leadership: First week of January
+  - Team/Squad OKRs finalized: End of January
+  - Individual OKRs agreed upon by manager and employee: End of February
+  - Q2 OKR refresh (minor adjustments allowed): April 1–15
+  - Mid-year OKR retrospective: July check-in
+
+4.3 Goal Categories
+  Every employee must have goals in the following categories:
+    a) Business/Functional Goals (50–60% weight) — delivery of core role responsibilities
+    b) Behavioral/Values Goals (20–30% weight) — how work is done (NexusTech values)
+    c) Development Goals (10–20% weight) — skills, certifications, learning targets
+
+5. SELF-ASSESSMENT
+───────────────────
+Each employee completes a self-assessment in Workday covering:
+
+  Section 1: Goal Achievement
+    - Rate your own achievement on each OKR (% complete, narrative explanation)
+    - Highlight 2–3 most impactful accomplishments with measurable outcomes
+    - Reflect on any goals missed and explain contributing factors
+
+  Section 2: NexusTech Values Reflection
+    NexusTech's 5 core values (rated 1–5 with written evidence):
+      ★ Customer Obsession  — How did you put customers first?
+      ★ Move with Urgency   — How did you bias toward action and speed?
+      ★ Own It              — Where did you take accountability?
+      ★ Think Big           — How did you challenge the status quo?
+      ★ One Team            — How did you contribute beyond your immediate role?
+
+  Section 3: Development Reflection
+    - Progress on learning/development goals
+    - Skills gained or certifications earned
+    - Areas where you want to grow in the coming year
+
+  Section 4: Upward Feedback
+    - Confidential section for feedback on your manager (separate from review; fed to
+      manager's own review by their skip-level manager)
+
+  Recommended length: 500–1,000 words total. Avoid bullet lists — write in narrative form.
+
+6. PEER FEEDBACK (360°)
+────────────────────────
+
+6.1 Process
+  - Each employee nominates 3–5 peers for feedback (direct collaborators, cross-functional
+    partners, or stakeholders outside the team)
+  - Manager approves or modifies the peer list (must include at least 1 cross-functional peer)
+  - HR adds any mandatory reviewers (e.g., key project stakeholders)
+  - Peer feedback is anonymous in the employee-facing report; managers see attribution
+
+6.2 Peer Feedback Questions (Workday form)
+  - What has [Name] done especially well this year? (Required, 100–300 words)
+  - What is one area where [Name] could have greater impact? (Required, 100–300 words)
+  - Would you choose to work with [Name] again on a high-stakes project? (Yes/Somewhat/No + reason)
+  - Rate [Name] on: Collaboration, Communication, Technical Quality, Reliability (1–5 scale)
+
+6.3 Confidentiality
+  - Peer feedback comments are aggregated and lightly paraphrased if fewer than 3 peers respond.
+  - Managers must not reveal the identity of individual peer reviewers without consent.
+
+7. MANAGER ASSESSMENT
+──────────────────────
+Managers complete the following in Workday:
+
+  Section 1: Overall Performance Narrative (300–600 words)
+    - Summary of the employee's year, key contributions, and growth
+
+  Section 2: Goal Ratings
+    - Rate each OKR: Exceeded / Met / Partially Met / Not Met
+    - Written justification for each rating
+
+  Section 3: Values Ratings
+    - Rate each of the 5 NexusTech values (1–5) with behavioral examples
+
+  Section 4: Overall Rating
+    - Select rating (1–5) with written rationale
+    - Flag if nomination for promotion, PIP, or special recognition applies
+
+  Section 5: Development Plan for Next Year
+    - 2–3 recommended focus areas with suggested actions (courses, stretch assignments, mentoring)
+
+  Manager assessments are reviewed by the skip-level manager before calibration.
+
+8. CALIBRATION SESSIONS
+────────────────────────
+
+8.1 Purpose
+  Calibration ensures fairness and consistency across teams. It is where managers discuss
+  and align on ratings across their organizations to reduce bias and grade inflation.
+
+8.2 Structure
+  Level 1 Calibration : Team-level (EM reviews ratings with their direct reports who manage people)
+  Level 2 Calibration : Department-level (Director/VP reviews across teams)
+  Level 3 Calibration : Executive Calibration (C-suite reviews for Directors and above)
+
+8.3 Rules of Calibration
+  - All proposed ratings and promotion nominations are discussed
+  - Managers must provide evidence-based justifications for ratings
+  - Distribution benchmarks are reviewed (not enforced as quotas)
+  - Promotions require unanimous agreement from the calibration panel
+  - Decisions made in calibration are final unless a formal appeal is filed (see Section 11)
+
+9. DELIVERING THE REVIEW
+─────────────────────────
+
+9.1 The Review Conversation
+  - Minimum 60 minutes scheduled; do not conduct via Slack or email
+  - Private setting (video call with camera on for remote employees)
+  - Suggested structure:
+      [0–5 min]   Open — Set a positive, collaborative tone
+      [5–20 min]  Employee shares self-assessment highlights
+      [20–35 min] Manager shares assessment (start with strengths, then areas to grow)
+      [35–50 min] Discuss development plan for next year; align on goals
+      [50–60 min] Compensation conversation (if applicable) and Q&A
+  - Never deliver a Rating 1 without HR Business Partner present
+
+9.2 Best Practices for Managers
+  ✓ Use specific examples, not generalizations ("In the Q3 platform migration, you...")
+  ✓ Separate performance conversation from compensation (different conversations, different days)
+  ✓ Do not read the written review verbatim — have a conversation
+  ✓ Listen more than you talk (target 40% manager talking, 60% employee)
+  ✗ Do not compare the employee to named colleagues ("Unlike Alex, you...")
+  ✗ Do not raise new critical feedback for the first time in the formal review
+
+10. PERFORMANCE IMPROVEMENT PLAN (PIP)
+────────────────────────────────────────
+
+10.1 When a PIP is Initiated
+  A PIP is initiated when an employee receives a Rating 2 or 1 and informal coaching has
+  not produced sufficient improvement. HR Business Partner must be involved.
+
+10.2 PIP Structure
+  Duration     : 30, 60, or 90 days (determined by HR based on severity)
+  Contents:
+    - Specific, measurable performance gaps
+    - Clear, achievable success criteria for each gap
+    - Resources and support provided (training, mentoring, workload adjustment)
+    - Weekly check-in cadence with manager
+    - Consequences if criteria not met (up to and including termination)
+
+10.3 PIP Outcomes
+  - Successful Completion   : PIP closed; employee returns to standard review cycle
+  - Partial Improvement     : PIP extended or modified
+  - Insufficient Improvement: Employment ended; HR and Legal involved
+
+  Note: A PIP is not a precursor to termination — it is a genuine attempt at improvement.
+  Approximately 40% of employees who enter a PIP at NexusTech complete it successfully.
+
+11. APPEALS PROCESS
+────────────────────
+  - Employees who believe their rating is unfair may file an appeal within 10 business days
+    of receiving their formal review
+  - Appeals submitted to HR Business Partner via hr@nexustech.io
+  - Appeal reviewed by skip-level manager + HR Business Partner within 15 business days
+  - Appeal outcomes: Rating upheld / Rating adjusted / Additional calibration requested
+  - If the employee remains unsatisfied, a final review by the CPO may be requested
+
+12. PROMOTIONS
+───────────────
+
+12.1 Promotion Criteria
+  Promotions at NexusTech are based on:
+    a) Demonstrated performance at the next level (not just the current level) for 6+ months
+    b) Business need / headcount availability at the next level
+    c) Calibration panel approval
+    d) No active PIP or disciplinary action
+
+12.2 Promotion Timing
+  - Promotions are effective February 1 (tied to annual review cycle)
+  - Off-cycle promotions require CPO and CFO approval; reserved for exceptional cases
+
+12.3 Levels & Titles (Engineering Example)
+  IC Track:
+    L3 — Software Engineer
+    L4 — Senior Software Engineer
+    L5 — Staff Software Engineer
+    L6 — Principal Software Engineer
+    L7 — Distinguished Engineer
+    L8 — Fellow
+
+  Management Track:
+    M4 — Engineering Manager (manages 4–8 ICs)
+    M5 — Senior Engineering Manager (manages EMs or 8–15 ICs)
+    M6 — Director of Engineering
+    M7 — Senior Director of Engineering
+    M8 — VP of Engineering
+
+13. CONTACTS
+─────────────
+  People Operations  : peopleops@nexustech.io | Slack: #hr-help
+  HR Business Partner (US)     : Sarah Chen — s.chen@nexustech.io
+  HR Business Partner (India)  : Ravi Subramaniam — r.subramaniam@nexustech.io
+  Workday Support    : workday-support@nexustech.io
+
+================================================================================
+END OF DOCUMENT — NT-HR-008 v3.0
+================================================================================

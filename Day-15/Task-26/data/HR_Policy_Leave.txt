@@ -1,0 +1,386 @@
+================================================================================
+NEXUSTECH SOLUTIONS — HUMAN RESOURCES POLICY DOCUMENT
+DOCUMENT ID   : HR-POL-001
+TITLE         : Leave & Vacation Policy
+VERSION       : 3.2
+EFFECTIVE DATE: January 1, 2026
+LAST REVIEWED : December 10, 2025
+APPROVED BY   : Sarah Mitchell, Chief People Officer
+DEPARTMENT    : Human Resources
+CLASSIFICATION: Internal — All Employees
+================================================================================
+
+TABLE OF CONTENTS
+-----------------
+1. Purpose & Scope
+2. Types of Leave
+   2.1 Annual / Vacation Leave
+   2.2 Sick Leave
+   2.3 Casual Leave
+   2.4 Maternity Leave
+   2.5 Paternity Leave
+   2.6 Bereavement Leave
+   2.7 Marriage Leave
+   2.8 Compensatory Off (Comp-Off)
+   2.9 Unpaid Leave (LOP)
+   2.10 Study / Exam Leave
+   2.11 Emergency Leave
+3. Leave Accrual & Carry-Forward Rules
+4. Leave Application Process
+5. Leave Cancellation & Recall
+6. Public Holidays
+7. Half-Day Leave
+8. Leave Without Pay (LWP) Guidelines
+9. Responsibilities
+10. Non-Compliance & Disciplinary Action
+11. FAQs
+12. Policy History / Revision Log
+
+================================================================================
+1. PURPOSE & SCOPE
+================================================================================
+
+1.1 Purpose
+This policy establishes consistent, fair, and transparent leave management
+practices at NexusTech Solutions. It ensures employees can maintain work-life
+balance while meeting business commitments.
+
+1.2 Scope
+This policy applies to all full-time permanent employees of NexusTech Solutions
+across all office locations: Bangalore HQ, Mumbai, Hyderabad, Chennai, and
+remote employees based in India. Contract staff, interns, and consultants are
+governed by separate agreements unless explicitly referenced herein.
+
+1.3 Guiding Principles
+- All leave types are a right, not a privilege.
+- Employees must not be penalized for taking legitimate leave.
+- Managers must handle leave requests with empathy and fairness.
+- Leave records are confidential and stored securely in the HRMS.
+
+================================================================================
+2. TYPES OF LEAVE
+================================================================================
+
+2.1 ANNUAL / VACATION LEAVE
+-----------------------------
+Entitlement:
+  - Employees with 0–2 years of service   : 15 days per calendar year
+  - Employees with 2–5 years of service   : 18 days per calendar year
+  - Employees with 5+ years of service    : 21 days per calendar year
+
+Accrual: Leave accrues at the start of each quarter (Jan, Apr, Jul, Oct) in
+equal installments (e.g., 15 days/year = 3.75 days per quarter).
+
+Minimum Notice: Employees must apply for vacation leave at least 5 working days
+in advance for durations of 1–3 days, and at least 15 working days in advance
+for durations of 4 days or more.
+
+Approval: Subject to manager approval and team capacity. Approval must be
+communicated within 3 working days of request submission.
+
+Restrictions:
+  - Maximum 10 consecutive vacation days permitted without VP approval.
+  - Cannot be taken during critical project delivery milestones (blackout
+    periods declared by the respective department head).
+  - Cannot be clubbed with more than 2 public holidays without manager approval.
+
+Encashment:
+  - Employees may encash up to 5 unused vacation days at the end of a calendar
+    year, at their current basic salary rate.
+  - Encashment requests must be submitted by December 15 each year.
+  - Encashment is not available during notice period.
+
+2.2 SICK LEAVE
+--------------
+Entitlement: 12 days per calendar year (non-cumulative).
+
+Usage:
+  - For illness, injury, medical procedures, hospitalization, or attending to
+    a sick immediate family member (spouse, children, parents).
+  - No advance notice required; employee must notify their direct manager and
+    HR before 10:00 AM on the first day of absence via HRMS or Slack.
+
+Medical Certificate:
+  - For illness lasting 3 or more consecutive working days, a medical
+    certificate from a registered medical practitioner must be submitted within
+    3 working days of returning to work.
+  - Failure to provide documentation may result in the leave being converted
+    to Loss of Pay (LOP).
+
+Carry-Forward: Sick leave does not carry forward to the next calendar year.
+Unused sick leave lapses at year-end and cannot be encashed.
+
+2.3 CASUAL LEAVE
+----------------
+Entitlement: 6 days per calendar year.
+Purpose: Short, unplanned personal needs (household emergencies, civic duties,
+personal appointments).
+Notice: Minimum 1 day prior notice preferred; same-day notice acceptable for
+emergencies.
+Restrictions:
+  - Maximum 2 consecutive casual leave days.
+  - Cannot be clubbed with vacation leave.
+  - Unused casual leave does not carry forward and cannot be encashed.
+
+2.4 MATERNITY LEAVE
+-------------------
+Entitlement: 26 weeks (182 days) of paid maternity leave as per the Maternity
+Benefit (Amendment) Act, 2017 for the first two children.
+For the third child onwards: 12 weeks paid maternity leave.
+
+Extended Leave: Additional 4 weeks of unpaid leave may be granted post-delivery
+with prior HR approval.
+
+Adoption: Female employees who adopt a child below 3 months of age are entitled
+to 12 weeks of paid maternity leave.
+
+Commissioning Mothers: Biological mothers in surrogacy arrangements are
+entitled to 12 weeks of paid leave from the date the child is handed over.
+
+Work-from-Home Post Return: On return from maternity leave, employees may
+request a 4-week WFH period without loss of pay.
+
+Documents Required:
+  - Expected date of delivery certificate from a gynecologist.
+  - Birth certificate (within 30 days of return).
+
+2.5 PATERNITY LEAVE
+-------------------
+Entitlement: 10 working days paid paternity leave.
+Eligibility: All male employees and partners in same-sex relationships for
+birth or legal adoption.
+Timing: Must be availed within 90 days of the child's birth or adoption date.
+Cannot be split into more than 2 separate periods.
+
+2.6 BEREAVEMENT LEAVE
+---------------------
+Entitlement:
+  - Death of spouse, child, parent, or sibling            : 5 working days
+  - Death of in-laws (mother-in-law / father-in-law)      : 3 working days
+  - Death of grandparent, uncle, aunt, first cousin       : 2 working days
+
+Extension: One additional day per 500 km distance for travel to attend last
+rites (maximum 2 extra days).
+Documentation: An obituary, death certificate, or funeral program may be
+requested in exceptional cases.
+
+2.7 MARRIAGE LEAVE
+------------------
+Entitlement: 5 working days paid leave for the employee's own marriage.
+Eligibility: Applicable once during the entire tenure of employment.
+Notice: Minimum 15 days prior notice required.
+
+2.8 COMPENSATORY OFF (COMP-OFF)
+--------------------------------
+Applicability: When an employee is required to work on a Sunday, public
+holiday, or declared company holiday due to business needs.
+Accrual: 1 comp-off day for every day worked on an off-day (minimum 4 hours
+constitutes half a comp-off).
+Validity: Comp-off must be availed within 60 days of accrual. Expired
+comp-offs lapse and cannot be encashed.
+Process: Manager must raise a comp-off request in HRMS within 2 days of the
+employee working on a holiday.
+
+2.9 UNPAID LEAVE (LOSS OF PAY — LOP)
+--------------------------------------
+Granted when all paid leave balances are exhausted.
+Requires manager + HR approval.
+Salary is deducted on a pro-rata basis for each LOP day.
+Continuous LOP beyond 30 days without prior approval is treated as voluntary
+abandonment of employment.
+
+2.10 STUDY / EXAM LEAVE
+------------------------
+Entitlement: Up to 5 days per calendar year for employees pursuing
+company-sponsored certifications or approved higher education programs.
+Proof of exam enrollment and results must be submitted to HR within 30 days.
+
+2.11 EMERGENCY LEAVE
+--------------------
+Up to 2 additional days per year may be approved by the HR Director for
+genuine emergencies not covered by other leave types (natural disasters, civil
+unrest, medical emergencies of dependents).
+These are granted at HR's sole discretion on a case-by-case basis.
+
+================================================================================
+3. LEAVE ACCRUAL & CARRY-FORWARD RULES
+================================================================================
+
+Leave Type          | Carry-Forward | Max Carry-Forward | Encashable
+--------------------|---------------|-------------------|------------
+Vacation / Annual   | Yes           | 15 days           | Yes (up to 5)
+Sick Leave          | No            | N/A               | No
+Casual Leave        | No            | N/A               | No
+Comp-Off            | Yes (60 days) | N/A               | No
+Maternity           | N/A           | N/A               | No
+Paternity           | N/A           | N/A               | No
+Bereavement         | N/A           | N/A               | No
+Marriage            | No            | N/A               | No
+Study Leave         | No            | N/A               | No
+
+Total maximum vacation leave balance at any time: 30 days (accrued + carried).
+Balances exceeding 30 days will be automatically encashed in December payroll
+at 50% of the basic salary rate.
+
+================================================================================
+4. LEAVE APPLICATION PROCESS
+================================================================================
+
+Step 1 — Apply via HRMS:
+  Log in to portal.nexustech.in → My Leave → Apply Leave → Select leave type,
+  dates, and add a reason. System auto-checks balance and flags conflicts.
+
+Step 2 — Manager Notification:
+  System auto-emails the direct manager and creates a task in the manager's
+  dashboard. For leaves >5 days, the skip-level manager is also notified.
+
+Step 3 — Manager Action:
+  Manager must approve or reject within:
+    - 1 working day for urgent/same-day requests
+    - 3 working days for planned requests
+  If no action taken within 3 days, the system escalates to the department head.
+
+Step 4 — Confirmation:
+  Employee receives email confirmation with updated leave balance.
+
+Verbal/Informal Approvals: Not valid. All leave must be formally applied and
+approved in HRMS. Verbal approvals from managers do not constitute official
+leave sanction.
+
+Backdating: Backdating leave applications is not permitted beyond 5 working
+days. Beyond this, approval from HR Director is required.
+
+================================================================================
+5. LEAVE CANCELLATION & RECALL
+================================================================================
+
+Cancellation by Employee:
+  Employees may cancel approved leave at least 2 working days before the start
+  date via HRMS. The balance is restored automatically.
+
+Recall from Leave:
+  In exceptional business circumstances, a manager may recall an employee from
+  approved leave. In such cases:
+    - Employee will receive a comp-off for unused leave days recalled.
+    - Travel costs incurred due to the recall are reimbursed with manager and
+      Finance approval.
+    - Employee has the right to decline recall from maternity/bereavement leave.
+
+================================================================================
+6. PUBLIC HOLIDAYS
+================================================================================
+
+NexusTech Solutions observes 10 mandatory national public holidays and provides
+an additional 5 optional "floating holidays" that employees may use at their
+discretion. The official holiday calendar is published by HR in December of the
+preceding year for all office locations.
+
+Mandatory Holidays (National): Republic Day, Holi, Good Friday, Independence
+Day, Gandhi Jayanti, Dussehra, Diwali, Eid ul-Fitr, Christmas, and one
+regional holiday per office location.
+
+Optional/Floating Holidays: Employees select 5 from a list of ~12 regional and
+religious festivals. Must be declared in HRMS by January 31 each year.
+Unused floating holidays lapse at year-end and cannot be encashed.
+
+================================================================================
+7. HALF-DAY LEAVE
+================================================================================
+
+Half-day leave = 0.5 leave day deducted from the applicable leave balance.
+First half: 9:30 AM – 1:30 PM
+Second half: 1:30 PM – 6:30 PM
+Cannot be combined with flexi-start/end without manager approval.
+
+================================================================================
+8. LEAVE WITHOUT PAY (LWP) GUIDELINES
+================================================================================
+
+LWP is permitted under extraordinary personal circumstances (severe illness,
+caring for a critically ill dependent, personal sabbatical) after all paid
+leave is exhausted.
+Maximum continuous LWP: 90 days per year (requires CHRO approval beyond 30).
+Benefits: Health insurance and PF contributions continue during LWP.
+Probation & Confirmation: Leave taken during probation does not count toward
+LWP limits; however, excessive leaves during probation may delay confirmation.
+
+================================================================================
+9. RESPONSIBILITIES
+================================================================================
+
+Employee Responsibilities:
+  - Apply leave proactively and with adequate notice.
+  - Keep manager informed of medical situations without disclosing confidential
+    health details unnecessarily.
+  - Return to work on the committed date; inform HR if extension is needed.
+
+Manager Responsibilities:
+  - Respond to leave requests within the stipulated time.
+  - Ensure team coverage plans are in place for extended absences.
+  - Not discourage employees from taking legitimate leave.
+  - Maintain confidentiality regarding the nature of employee leave.
+
+HR Responsibilities:
+  - Maintain accurate leave records in HRMS.
+  - Publish holiday calendars annually.
+  - Audit leave balances quarterly.
+  - Handle disputes and escalations.
+
+================================================================================
+10. NON-COMPLIANCE & DISCIPLINARY ACTION
+================================================================================
+
+- Misrepresentation of leave reasons: Written warning → salary deduction →
+  termination depending on severity and recurrence.
+- Overstaying approved leave without communication: Leave converted to LOP;
+  second occurrence triggers disciplinary process.
+- Managers delaying leave approvals deliberately: Escalated to HR; performance
+  note recorded.
+
+================================================================================
+11. FAQs
+================================================================================
+
+Q: Can I apply for leave on the same day?
+A: Sick and casual leave can be applied on the day itself; vacation leave
+   requires advance notice.
+
+Q: Can leave be taken during the notice period?
+A: Casual and sick leave may be taken during notice. Vacation leave during
+   notice requires mutual agreement. Notice period is not extended for
+   leaves taken; salary is adjusted instead.
+
+Q: What happens to leave balance when I am promoted or change teams?
+A: Leave balances are not affected by internal movements.
+
+Q: Can I split my maternity leave?
+A: Maternity leave cannot be split; it must be taken as a continuous block
+   starting at most 8 weeks before the expected delivery date.
+
+Q: Is there a minimum service period before I can take vacation leave?
+A: Employees must complete 3 months of service to avail vacation leave.
+   Sick and casual leave are available from day 1.
+
+Q: Who do I contact for HRMS technical issues?
+A: Raise a ticket at helpdesk.nexustech.in or email hrtech@nexustech.in.
+
+================================================================================
+12. POLICY HISTORY / REVISION LOG
+================================================================================
+
+Version | Date           | Changed By             | Summary of Changes
+--------|----------------|------------------------|-------------------------
+1.0     | Jan 1, 2019    | Priya Nair (HR)        | Initial policy release
+2.0     | Jan 1, 2021    | Rohan Mehta (HR)       | Added WFH post-maternity;
+        |                |                        | updated paternity to 10 days
+2.5     | Jun 1, 2022    | Sarah Mitchell (CPO)   | Added study leave; revised
+        |                |                        | carry-forward rules
+3.0     | Jan 1, 2024    | Sarah Mitchell (CPO)   | Revamped full policy;
+        |                |                        | added emergency leave
+3.2     | Jan 1, 2026    | Sarah Mitchell (CPO)   | Updated accrual schedule;
+        |                |                        | floating holiday clarification
+
+================================================================================
+For queries, contact: hr@nexustech.in | Ext: 1001
+HR Portal: portal.nexustech.in/hr
+================================================================================

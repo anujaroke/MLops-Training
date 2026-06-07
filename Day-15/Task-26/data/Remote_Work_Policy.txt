@@ -1,0 +1,326 @@
+================================================================================
+NEXUSTECH SOLUTIONS — HUMAN RESOURCES POLICY
+Document ID     : NT-HR-009
+Title           : Remote Work & Hybrid Work Policy
+Version         : 2.5
+Effective Date  : January 1, 2026
+Last Reviewed   : November 30, 2025
+Owner           : People Operations Team
+Approved By     : Chief People Officer — Priya Nair | CEO — Jonathan Mercer
+Classification  : Internal Use Only
+================================================================================
+
+1. PURPOSE & PHILOSOPHY
+────────────────────────
+NexusTech Solutions is a hybrid-first company. We believe great work happens when
+employees have the autonomy to choose where they work best — while maintaining the
+in-person connection that fuels collaboration, culture, and creativity.
+
+This policy is built on three principles:
+  TRUST        : We trust employees to deliver results wherever they work
+  FLEXIBILITY  : We design work around outcomes, not hours or location
+  CONNECTION   : We create intentional in-person moments that matter
+
+This policy replaces all previous remote work arrangements communicated during or after
+the COVID-19 pandemic and represents our permanent hybrid framework.
+
+2. WORK ARRANGEMENT TYPES
+──────────────────────────
+
+2.1 Hybrid (Default for most roles)
+  Definition  : Employee works from a NexusTech office location AND remotely in a
+                flexible pattern agreed upon with their manager.
+  Expectation : Minimum 2 in-office days per week (Tuesday and Thursday preferred as
+                "anchor days" for team collaboration)
+  Eligible for: All employees within 50 miles of a NexusTech office
+
+2.2 Remote (Approved exceptions)
+  Definition  : Employee works fully remotely with no regular in-office requirement.
+  Eligibility : Employees who live more than 50 miles from any NexusTech office OR
+                those with an approved Remote Exception (see Section 6)
+  In-person requirement: Must attend quarterly in-person team weeks (travel covered by NT)
+
+2.3 Office-First (Required for some roles)
+  Definition  : Employee is expected in the office 4–5 days per week.
+  Applicable roles:
+    - IT Infrastructure / Help Desk technicians (on-site equipment management)
+    - Office Operations, Reception, Facilities
+    - Lab / Hardware Engineering roles requiring physical equipment
+    - New employees during 90-day probationary period (must be in office 3+ days/week)
+
+2.4 Temporary Remote (Short-Term Flexibility)
+  Definition  : Employee temporarily works fully remote for up to 4 weeks for approved
+                personal reasons (caretaking, home repairs, travel with family, etc.)
+  Process     : Verbal/Slack agreement with direct manager; no formal HR approval needed
+                for periods up to 2 weeks. Workday submission required for 2–4 weeks.
+  Extensions  : Beyond 4 weeks, requires HR Business Partner approval.
+
+3. ELIGIBILITY
+───────────────
+Remote and hybrid arrangements are available to:
+  ✅ Full-time permanent employees who have completed 90-day probation
+  ✅ Part-time employees (pro-rated in-office expectations)
+  ✅ Long-term contractors (6+ months engagement) with manager approval
+
+NOT eligible for remote/hybrid arrangements:
+  ✗ Employees on an active Performance Improvement Plan (PIP) — must revert to office-first
+    until PIP is successfully completed (exceptions require CPO approval)
+  ✗ Employees within 90-day probationary period
+  ✗ Employees with a documented pattern of productivity issues tied to remote work
+
+4. IN-OFFICE ANCHOR DAYS
+─────────────────────────
+
+4.1 Company Anchor Days
+NexusTech designates Tuesday and Thursday as preferred in-office days for most teams.
+These days are intentionally chosen to:
+  - Maximize the chance that teammates are in-office simultaneously
+  - Create a midweek energy boost
+  - Enable spontaneous collaboration and social connection
+
+All-hands meetings, team offsites, and department town halls default to anchor days.
+
+4.2 Team-Level Customization
+  - Teams may customize anchor days with EM approval, provided the team collectively agrees
+  - Cross-functional teams that collaborate heavily should align anchor days
+  - Engineering squads should be in-office on the same days for sprint ceremonies
+
+4.3 Anchor Day Activities (Encouraged)
+  - Team lunches (NexusTech provides $20/person lunch stipend on Tuesdays)
+  - In-person sprint planning, design reviews, architecture discussions
+  - 1:1s and performance conversations
+  - Social events, happy hours, and team bonding
+
+5. HOME OFFICE SETUP & STIPENDS
+─────────────────────────────────
+
+5.1 New Hire Remote Setup Allowance
+  All new employees approved for hybrid or remote work receive a one-time home office
+  stipend of $1,000 USD (or local currency equivalent) to spend within the first 90 days.
+
+  Approved uses:
+    ✓ Monitor (external display)
+    ✓ Ergonomic chair
+    ✓ Standing desk or desk riser
+    ✓ Webcam, microphone, or headset
+    ✓ Keyboard and mouse
+    ✓ Desk lamp, cable management accessories
+    ✓ Wi-Fi extender or ethernet adapter
+
+  NOT covered by stipend:
+    ✗ Personal computers or tablets (company equipment is provided separately)
+    ✗ Home renovation or construction costs
+    ✗ Coffee machines or personal appliances
+    ✗ Internet service (see Section 5.3)
+
+  Receipts must be submitted via Workday Expenses within 30 days of purchase.
+  Equipment purchased with the stipend remains the employee's personal property.
+
+5.2 Monthly Remote Work Stipend (Ongoing)
+  Remote employees (non-hybrid) receive:
+    - $100/month USD remote work stipend
+    - No receipts required; paid directly via payroll as a taxable benefit
+
+  Hybrid employees receive:
+    - $50/month hybrid stipend (to cover incidental supplies, printing, etc.)
+    - No receipts required
+
+5.3 Internet & Phone
+  - NexusTech does NOT reimburse home internet costs (considered a personal utility).
+  - Employees who require dedicated high-speed internet for specific job roles
+    (e.g., video production, live streaming support) may request a monthly internet
+    reimbursement of up to $60/month with manager and Finance approval.
+  - Company mobile plans are available for roles requiring constant mobile access
+    (account managers, executive team, on-call engineers). Contact IT.
+
+5.4 Company-Issued Equipment
+  Standard equipment issued to all remote/hybrid employees:
+    - MacBook Pro (14" or 16" depending on role) or equivalent Windows machine
+    - NexusTech-branded laptop bag
+    - Power adapter + travel charger
+    - YubiKey security key
+    - NexusTech swag kit (first week)
+
+  Requesting additional equipment (docking station, second monitor, mechanical keyboard, etc.):
+    Submit an IT equipment request via the IT Service Portal (it.nexustech.io).
+    Standard requests fulfilled within 5 business days.
+    Specialty equipment (e.g., GPU workstation, large format display) requires manager + IT approval.
+
+6. REMOTE EXCEPTION PROCESS
+─────────────────────────────
+
+6.1 When a Remote Exception is Needed
+  Employees who want to work fully remote from a location beyond commuting distance of a
+  NexusTech office must submit a Remote Work Exception Request.
+
+  Common scenarios:
+    - Relocating to a city without a NexusTech office
+    - Personal circumstances requiring a change in work location
+    - New hire who is being hired into a fully remote role
+
+6.2 Approval Process
+  Step 1 : Employee submits Remote Exception Form in Workday
+           (include: proposed location, reason, start date, duration — temporary or permanent)
+  Step 2 : Direct manager reviews and provides recommendation
+  Step 3 : HR Business Partner reviews for compliance (tax, labor law, entity requirements)
+  Step 4 : Finance reviews compensation implications (geographic pay adjustments if applicable)
+  Step 5 : CPO provides final approval for permanent remote exceptions
+  Step 6 : Employee notified within 15 business days of submission
+
+6.3 Geographic Pay Adjustments
+  NexusTech uses a location-based compensation model for remote employees:
+
+  Tier 1 (High Cost of Living) — San Francisco, New York, Seattle, San Jose:
+    Compensation at 100% of published band
+
+  Tier 2 (Mid Cost of Living) — Austin, Denver, Boston, Chicago, Los Angeles, Portland:
+    Compensation at 90–95% of published band
+
+  Tier 3 (Lower Cost of Living) — All other US locations:
+    Compensation at 80–90% of published band
+
+  International remote (approved countries): Compensation benchmarked to local market data.
+  Relocation that results in a geographic downward adjustment will be applied at next
+  compensation cycle (not retroactively mid-year).
+
+7. INTERNATIONAL REMOTE WORK
+──────────────────────────────
+
+7.1 Working from Another Country Temporarily ("Workcation")
+  Employees may work from a country other than their home country for up to 30 consecutive
+  days per calendar year without triggering tax or employment law concerns, subject to:
+    - Manager approval via Workday (at least 5 business days in advance)
+    - Must maintain work hours that overlap with team's core hours by at least 4 hours/day
+    - Responsible for any personal visa requirements (NexusTech does not arrange visas)
+    - Travel insurance must be in place (provided by NexusTech through Cigna Global)
+
+  Countries requiring additional legal review (do NOT work from without HR approval):
+    China, Russia, Cuba, Iran, North Korea, Venezuela (entity/sanctions concerns)
+
+7.2 Permanent International Remote
+  - Extremely limited; requires CPO + CFO + General Counsel approval
+  - NexusTech must have a legal entity or employer-of-record (EOR) arrangement in that country
+  - Currently approved for: USA, India, Singapore, UK, Canada, Germany, Australia
+  - New country requests reviewed case-by-case; typical setup time: 3–6 months
+
+8. WORKING HOURS & AVAILABILITY
+─────────────────────────────────
+
+8.1 Core Hours
+  All employees must be available (reachable via Slack) during core hours:
+    US Teams     : 10:00 AM – 3:00 PM in the employee's local US time zone
+    India Team   : 10:00 AM – 4:00 PM IST
+    APAC Team    : 10:00 AM – 4:00 PM SGT
+
+  Outside core hours, employees may flex their schedules to their preference.
+
+8.2 Working Hours Flexibility
+  - Employees may start as early as 6:00 AM or as late as 10:00 AM local time
+  - Standard working day is 8 hours (not including breaks)
+  - Compressed workweek (4x10) requires manager approval and may not be compatible with
+    all roles
+  - Part-time schedules must be agreed in the employment contract and cannot be
+    unilaterally changed by the manager
+
+8.3 Availability & Response Expectations
+  Slack:
+    - During core hours: Respond within 1 hour to direct messages
+    - Non-urgent messages outside core hours: Next business day
+    - Set your Slack status to reflect your location (🏠 WFH / 🏢 In Office / ✈️ Traveling)
+    - Use Do Not Disturb for deep focus blocks (notify manager if extended)
+
+  Email:
+    - Not expected for real-time communication
+    - Respond within 24 hours during business days
+
+  Video calls:
+    - Camera on is the default expectation (unless in a noisy/public location)
+    - Camera-off is always acceptable for audio-only preference or personal circumstances —
+      employees should never feel pressured to have camera on
+
+8.4 Disconnecting After Hours
+  - Employees are NOT expected to respond to Slack or email outside working hours
+  - Managers must not contact employees outside working hours via personal numbers unless
+    there is a genuine emergency (production outage, time-sensitive safety issue)
+  - NexusTech discourages a culture of always-on messaging — use scheduled send for
+    messages composed outside business hours
+
+9. MEETING STANDARDS FOR HYBRID TEAMS
+───────────────────────────────────────
+
+9.1 Remote-First Meeting Principles
+  Even when some participants are in the office, all meetings are conducted as if everyone
+  is remote to ensure an equitable experience:
+    - Every participant joins via their own laptop (no "in-room + dial-in" split)
+    - Meeting rooms are equipped with high-quality cameras and microphones
+    - Shared docs / screen share is the norm for presentations
+    - Chat is monitored and questions from remote participants are prioritized
+
+9.2 Meeting Norms
+  - Meetings start on time; late starts waste everyone's time
+  - Meetings have an agenda shared at least 30 minutes in advance
+  - Default meeting length: 25 min (half-hour slot) or 50 min (hour slot)
+    — avoids back-to-back meeting fatigue; leaves buffer for bio breaks
+  - Fridays are protected: no internal meetings after 3 PM local time (deep focus window)
+  - "No Meeting" blocks: Employees may block 2 hours of uninterrupted deep work per day
+    — mark as "Focus Time" in Google Calendar; others must respect this
+
+9.3 Meeting-Free Days
+  Wednesday is a company-wide low-meeting day. Guidelines:
+    - No mandatory all-hands, town halls, or large group meetings on Wednesdays
+    - 1:1s and small working sessions are acceptable
+    - Encouraged for deep focus, independent work, learning, writing
+
+10. HOME OFFICE SECURITY REQUIREMENTS
+───────────────────────────────────────
+(In conjunction with NT-IT-002 Information Security Policy)
+
+  - Home router must use WPA2 or WPA3 encryption with a non-default password
+  - VPN (Cisco AnyConnect) must be active when accessing company systems
+  - Company laptop must not be used by family members or shared with anyone
+  - Screen must not be visible to others in public or shared spaces when working with
+    Tier 3/4 data (use a privacy screen filter — available from IT at no cost)
+  - Lost or stolen equipment must be reported to IT within 1 hour: it@nexustech.io / 1100
+
+11. MANAGER RESPONSIBILITIES
+─────────────────────────────
+Managers of hybrid/remote employees must:
+  ✓ Set clear expectations for availability and deliverables in writing
+  ✓ Conduct weekly or biweekly 1:1s via video (not just async)
+  ✓ Ensure remote employees are not left out of informal decision-making
+  ✓ Rotate in-person meeting responsibilities (don't always assign travel to the same person)
+  ✓ Proactively check in on remote employee wellbeing and isolation
+  ✓ Use Workday to track formal remote arrangements (not just informal agreements)
+  ✗ NOT monitor time spent at desk or use screen-monitoring software
+  ✗ NOT require employees to be on video continuously or use productivity surveillance tools
+
+12. POLICY VIOLATIONS
+──────────────────────
+  - Working from an unauthorized country without approval: Written warning + potential
+    tax/legal liability investigation
+  - Sharing company equipment with unauthorized users: IT security review + disciplinary action
+  - Consistently failing to maintain core-hour availability without communication:
+    Performance discussion with manager; may affect remote work eligibility
+  - Using remote work arrangement to conduct a second job (moonlighting) in violation of
+    the NexusTech Conflict of Interest Policy: Termination
+
+13. CONTACTS
+─────────────
+  People Operations       : peopleops@nexustech.io | Slack: #hr-help
+  HR Business Partner (US): Sarah Chen — s.chen@nexustech.io
+  IT Helpdesk             : it@nexustech.io | Slack: #it-help | Ext: 1100
+  Facilities / Office Ops : facilities@nexustech.io
+  Finance (stipends/reimbursements): expenses@nexustech.io
+
+14. REVISION HISTORY
+─────────────────────
+  v2.5 (Jan 2026) : Added Wednesday low-meeting day, updated stipend amounts, clarified
+                    geographic pay tiers, added workcation country restrictions list
+  v2.4 (Jul 2025) : Increased new hire home office stipend from $750 to $1,000
+  v2.3 (Jan 2025) : Introduced remote-first meeting principles; added camera-on guidance
+  v2.0 (Sep 2024) : Full rewrite — replaced COVID-era remote policy with permanent hybrid framework
+  v1.x (2020–2024): Pandemic-era temporary remote work policies
+
+================================================================================
+END OF DOCUMENT — NT-HR-009 v2.5
+================================================================================
